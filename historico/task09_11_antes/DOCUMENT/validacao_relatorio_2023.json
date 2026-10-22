@@ -1,0 +1,23 @@
+{
+  "status": "validacao_estatica_aprovada",
+  "compilador": null,
+  "compilado": false,
+  "figuras": 4,
+  "arquivos_referenciados": [
+    "tabelas/indicadores.tex",
+    "tabelas/participacao.tex",
+    "../resultados/graficos/participacao_2023.png",
+    "tabelas/notas.tex",
+    "../resultados/graficos/distribuicao_notas_2023.png",
+    "../resultados/graficos/medias_grupos_2023.png",
+    "tabelas/ponderacao.tex",
+    "../resultados/graficos/dispersao_cursos_2023.png"
+  ],
+  "tabelas_reconciliadas_com_csv": true,
+  "chaves_ambientes_citacoes_referencias": true,
+  "main_tex_sha256": "c63ede883e953798be8108027318c9a543ff1b840b096f9bd9d2ab010cffedd4",
+  "limitacoes": [
+    "main.tex original tinha zero bytes; autoria acadêmica requer revisão",
+    "Sem compilação: paginação e aparência do PDF não verificadas"
+  ]
+}

@@ -1,0 +1,5809 @@
+{
+  "enade": {
+    "membro": "Microdados_Enade_2023/1.LEIA-ME/Dicionário_arquivos_variáveis_microdados_Enade_2023.xlsx",
+    "abas": {
+      "DICIONÁRIO DE VARIÁVEIS": {
+        "NU_ANO": {
+          "tipo": "N",
+          "descricao": "Ano de realização do exame",
+          "linhas": [
+            3
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "2023"
+          ]
+        },
+        "CO_IES": {
+          "tipo": "N",
+          "descricao": "Código da IES (e-MEC)",
+          "linhas": [
+            5
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Entre 1 e 25352"
+          ]
+        },
+        "CO_CATEGAD": {
+          "tipo": "N",
+          "descricao": "Código da categoria administrativa da IES",
+          "linhas": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            22
+          ],
+          "dominio": {
+            "1": "Pública Federal",
+            "2": "Pública Estadual",
+            "3": "Pública Municipal",
+            "4": "Privada com fins lucrativos",
+            "5": "Privada sem fins lucrativos",
+            "7": "Especial",
+            "8": "Comunitária/Confessional"
+          },
+          "texto_dominio": [
+            "1. Pública Federal",
+            "2. Pública Estadual",
+            "3. Pública Municipal",
+            "4. Privada com fins lucrativos",
+            "5. Privada sem fins lucrativos",
+            "7. Especial",
+            "8. Comunitária/Confessional"
+          ]
+        },
+        "CO_ORGACAD": {
+          "tipo": "N",
+          "descricao": "Código da organização acadêmica da IES",
+          "linhas": [
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "dominio": {
+            "10019": "Centro Federal de Educação Tecnológica",
+            "10020": "Centro Universitário",
+            "10022": "Faculdade",
+            "10026": "Instituto Federal de Educação, Ciência e Tecnologia",
+            "10028": "Universidade"
+          },
+          "texto_dominio": [
+            "10019 = Centro Federal de Educação Tecnológica",
+            "10020 = Centro Universitário",
+            "10022 = Faculdade ",
+            "10026 = Instituto Federal de Educação, Ciência e Tecnologia",
+            "10028 = Universidade"
+          ]
+        },
+        "CO_GRUPO": {
+          "tipo": "N",
+          "descricao": "Código da Área de enquadramento do curso no Enade",
+          "linhas": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "dominio": {
+            "5": "Medicina Veterinária",
+            "6": "Odontologia",
+            "12": "Medicina",
+            "17": "Agronomia",
+            "19": "Farmácia",
+            "21": "Arquitetura e Urbanismo",
+            "23": "Enfermagem",
+            "27": "Fonoaudiologia",
+            "28": "Nutrição",
+            "36": "Fisioterapia",
+            "51": "Zootecnia",
+            "55": "Biomedicina",
+            "69": "Tecnologia em Radiologia",
+            "90": "Tecnologia em Agronegócios",
+            "91": "Tecnologia em Gestão Hospitalar",
+            "92": "Tecnologia em Gestão Ambiental",
+            "95": "Tecnologia em Estética e Cosmética",
+            "5710": "Engenharia Civil",
+            "5806": "Engenharia Elétrica",
+            "5814": "Engenharia de Controle e Automação",
+            "5902": "Engenharia Mecânica",
+            "6002": "Engenharia de Alimentos",
+            "6008": "Engenharia Química",
+            "6208": "Engenharia de Produção",
+            "6307": "Engenharia Ambiental",
+            "6405": "Engenharia Florestal",
+            "6410": "Tecnologia em Segurança no Trabalho",
+            "6411": "Engenharia de Computação I"
+          },
+          "texto_dominio": [
+            "5 = Medicina Veterinária",
+            "6 = Odontologia",
+            "12 = Medicina",
+            "17 = Agronomia",
+            "19 = Farmácia",
+            "21 = Arquitetura e Urbanismo",
+            "23 = Enfermagem",
+            "27 = Fonoaudiologia",
+            "28 = Nutrição",
+            "36 = Fisioterapia",
+            "51 = Zootecnia",
+            "55 = Biomedicina",
+            "69 = Tecnologia em Radiologia",
+            "90 = Tecnologia em Agronegócios",
+            "91 = Tecnologia em Gestão Hospitalar",
+            "92 = Tecnologia em Gestão Ambiental",
+            "95 = Tecnologia em Estética e Cosmética",
+            "5710 = Engenharia Civil",
+            "5806 = Engenharia Elétrica",
+            "5814 = Engenharia de Controle e Automação",
+            "5902 = Engenharia Mecânica",
+            "6002 = Engenharia de Alimentos",
+            "6008 = Engenharia Química",
+            "6208 = Engenharia de Produção",
+            "6307 = Engenharia Ambiental",
+            "6405 = Engenharia Florestal",
+            "6410 = Tecnologia em Segurança no Trabalho",
+            "6411 = Engenharia de Computação I"
+          ]
+        },
+        "CO_CURSO": {
+          "tipo": "N",
+          "descricao": "Código do curso no Enade",
+          "linhas": [
+            56
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Entre 3 e 50017068"
+          ]
+        },
+        "CO_MODALIDADE": {
+          "tipo": "N",
+          "descricao": "Código da Modalidade de Ensino",
+          "linhas": [
+            57,
+            58
+          ],
+          "dominio": {
+            "0": "EaD",
+            "1": "Presencial"
+          },
+          "texto_dominio": [
+            "0 = EaD",
+            "1 = Presencial"
+          ]
+        },
+        "CO_MUNIC_CURSO": {
+          "tipo": "N",
+          "descricao": "Código do município de funcionamento do curso",
+          "linhas": [
+            59
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "entre 1100023 e 5300108 (Identificação do Município conforme IBGE - Ir para Planilha MUNICÍPIOS)"
+          ]
+        },
+        "CO_UF_CURSO": {
+          "tipo": "N",
+          "descricao": "Código da UF de funcionamento do curso",
+          "linhas": [
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "dominio": {
+            "11": "Rondônia (RO)",
+            "12": "Acre (AC)",
+            "13": "Amazonas (AM)",
+            "14": "Roraima (RR)",
+            "15": "Pará (PA)",
+            "16": "Amapa (AP)",
+            "17": "Tocantins (TO)",
+            "21": "Maranhão (MA)",
+            "22": "Piauí (PI)",
+            "23": "Ceará (CE)",
+            "24": "Rio Grande do Norte (RN)",
+            "25": "Paraíba (PB)",
+            "26": "Pernambuco (PE)",
+            "27": "Alagoas (AL)",
+            "28": "Sergipe (SE)",
+            "29": "Bahia (BA)",
+            "31": "Minas gerais (MG)",
+            "32": "Espírito Santo (ES)",
+            "33": "Rio de Janeiro (RJ)",
+            "35": "São Paulo (SP)",
+            "41": "Paraná (PR)",
+            "42": "Santa Catarina (SC)",
+            "43": "Rio Grande do Sul (RS)",
+            "50": "Mato Grosso do Sul (MS)",
+            "51": "Mato Grosso (MT)",
+            "52": "Goiás (GO)",
+            "53": "Distrito federal (DF)"
+          },
+          "texto_dominio": [
+            "Conforme código do IBGE",
+            "11 = Rondônia (RO)",
+            "12 = Acre (AC)",
+            "13 = Amazonas (AM)",
+            "14 = Roraima (RR)",
+            "15 = Pará (PA)",
+            "16 = Amapa (AP)",
+            "17 = Tocantins (TO)",
+            "21 = Maranhão (MA)",
+            "22= Piauí (PI)",
+            "23 = Ceará (CE)",
+            "24 = Rio Grande do Norte (RN)",
+            "25 = Paraíba (PB)",
+            "26 = Pernambuco (PE)",
+            "27 = Alagoas (AL)",
+            "28 = Sergipe (SE)",
+            "29 = Bahia (BA)",
+            "31 = Minas gerais (MG)",
+            "32 = Espírito Santo (ES)",
+            "33 = Rio de Janeiro (RJ)",
+            "35 = São Paulo (SP)",
+            "41 = Paraná (PR)",
+            "42 = Santa Catarina (SC)",
+            "43 = Rio Grande do Sul (RS)",
+            "50 = Mato Grosso do Sul (MS)",
+            "51 = Mato Grosso (MT)",
+            "52 = Goiás (GO)",
+            "53 = Distrito federal (DF)"
+          ]
+        },
+        "CO_REGIAO_CURSO": {
+          "tipo": "N",
+          "descricao": "Código da região de funcionamento do curso",
+          "linhas": [
+            88,
+            89,
+            90,
+            91,
+            92
+          ],
+          "dominio": {
+            "1": "Região Norte (N)",
+            "2": "Região Nordeste (NE)",
+            "3": "Região Sudeste (SE)",
+            "4": "Região Sul (SUL)",
+            "5": "Região Centro-Oeste (CO)"
+          },
+          "texto_dominio": [
+            "1 = Região Norte (N)",
+            "2 = Região Nordeste (NE)",
+            "3 = Região Sudeste (SE)",
+            "4 = Região Sul (SUL)",
+            "5 = Região Centro-Oeste (CO)"
+          ]
+        },
+        "NU_IDADE": {
+          "tipo": "N",
+          "descricao": "Idade do inscrito em 26/11/2023",
+          "linhas": [
+            94
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "valores entre 17 e 89 (Dado proveniente da base da Receita Federal)"
+          ]
+        },
+        "TP_SEXO": {
+          "tipo": "C",
+          "descricao": "Sexo",
+          "linhas": [
+            95,
+            96,
+            97
+          ],
+          "dominio": {
+            "9": "Indefinido"
+          },
+          "texto_dominio": [
+            "M = Masculino",
+            "F = Feminino",
+            "9 = Indefinido"
+          ]
+        },
+        "ANO_FIM_EM": {
+          "tipo": "N",
+          "descricao": "Ano de conclusão do Ensino Médio",
+          "linhas": [
+            98
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "AAAA (valores entre 1016 e 2914), conforme lançado pelo estudante"
+          ]
+        },
+        "ANO_IN_GRAD": {
+          "tipo": "N",
+          "descricao": "Ano de início da graduação",
+          "linhas": [
+            99
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "AAAA (valores entre 4 e 2090), conforme lançado pelo estudante"
+          ]
+        },
+        "CO_TURNO_GRADUACAO": {
+          "tipo": "N",
+          "descricao": "Código do turno de graduação cursado pelo estudante",
+          "linhas": [
+            100,
+            101,
+            102,
+            103
+          ],
+          "dominio": {
+            "1": "Matutino",
+            "2": "Vespertino",
+            "3": "Integral",
+            "4": "Noturno"
+          },
+          "texto_dominio": [
+            "1 = Matutino",
+            "2 = Vespertino",
+            "3 = Integral",
+            "4 = Noturno"
+          ]
+        },
+        "TP_INSCRICAO_ADM": {
+          "tipo": "N",
+          "descricao": "Forma pela qual foi realizada a inscrição",
+          "linhas": [
+            104,
+            105
+          ],
+          "dominio": {
+            "0": "Tradicional",
+            "2": "Administrativa"
+          },
+          "texto_dominio": [
+            "0 = Tradicional",
+            "2 = Administrativa"
+          ]
+        },
+        "TP_INSCRICAO": {
+          "tipo": "N",
+          "descricao": "Tipo de inscrição",
+          "linhas": [
+            106
+          ],
+          "dominio": {
+            "0": "Concluinte"
+          },
+          "texto_dominio": [
+            "0 = Concluinte"
+          ]
+        },
+        "NU_ITEM_OFG": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva da Formação Geral",
+          "linhas": [
+            109
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "9 itens"
+          ]
+        },
+        "NU_ITEM_OFG_Z": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva da Formação Geral que foram excluídos devido a anulação",
+          "linhas": [
+            110
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min=0\nMax=0"
+          ]
+        },
+        "NU_ITEM_OFG_X": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva da Formação Geral que foram excluídos devido ao coeficiente ponto-bisserial menor que 0,20",
+          "linhas": [
+            111
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min=0\nMax=0"
+          ]
+        },
+        "NU_ITEM_OFG_N": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva da Formação Geral que não se aplicam ao grupo de curso",
+          "linhas": [
+            112
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min=0\nMax=0"
+          ]
+        },
+        "NU_ITEM_OCE": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva de Componente Específico",
+          "linhas": [
+            113
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "29 itens"
+          ]
+        },
+        "NU_ITEM_OCE_Z": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva de Componente Específico que foram excluídos devido a anulação",
+          "linhas": [
+            114
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min=0\nMax=1"
+          ]
+        },
+        "NU_ITEM_OCE_X": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva de Componente Específico que foram excluídos devido ao coeficiente ponto-bisserial menor que 0,20",
+          "linhas": [
+            115
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min=1\nMax=9"
+          ]
+        },
+        "NU_ITEM_OCE_N": {
+          "tipo": "N",
+          "descricao": "Número de itens da parte objetiva de Componente Específico que não se aplicam ao grupo de curso",
+          "linhas": [
+            116
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min=0\nMax=0"
+          ]
+        },
+        "DS_VT_GAB_OFG_FIN": {
+          "tipo": "C",
+          "descricao": "Vetor que representa o gabarito final de Formação Geral",
+          "linhas": [
+            118,
+            119,
+            120
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "1 letra por item (intervalo de A a E)",
+            "Z = questão excluída devido à anulação",
+            "X = questão excluída devido ao coeficiente ponto-bisserial < 0,20"
+          ]
+        },
+        "DS_VT_GAB_OCE_FIN": {
+          "tipo": "C",
+          "descricao": "Vetor que representa o gabarito final de Componente Específico",
+          "linhas": [
+            121,
+            122,
+            123
+          ],
+          "dominio": {
+            "8": "questão excluída devido à anulação",
+            "9": "questão excluída devido ao coeficiente ponto-bisserial < 0,20"
+          },
+          "texto_dominio": [
+            "1 letra por item (intervalo de A a E)",
+            "8 = questão excluída devido à anulação",
+            "9 = questão excluída devido ao coeficiente ponto-bisserial < 0,20"
+          ]
+        },
+        "DS_VT_ESC_OFG": {
+          "tipo": "C",
+          "descricao": "Vetor que representa a escolha de resposta da parte objetiva da Formação Geral",
+          "linhas": [
+            124
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "1 letra por item (intervalo de A a E), \".\"=em branco, \"*\"=múltiplo"
+          ]
+        },
+        "DS_VT_ACE_OFG": {
+          "tipo": "C",
+          "descricao": "Vetor que representa os acertos da parte objetiva na Formação Geral",
+          "linhas": [
+            125,
+            126,
+            127,
+            128
+          ],
+          "dominio": {
+            "0": "Errado",
+            "1": "Certo",
+            "8": "Anulada pela comissão",
+            "9": "Anulada pelo índice de discriminação (correlação pontobisserial < 0,20)"
+          },
+          "texto_dominio": [
+            "0 = Errado",
+            "1 = Certo",
+            "8 = Anulada pela comissão",
+            "9 = Anulada pelo índice de discriminação (correlação pontobisserial < 0,20)"
+          ]
+        },
+        "DS_VT_ESC_OCE": {
+          "tipo": "C",
+          "descricao": "Vetor que representa a escolha de resposta da parte objetiva do Componente Específico",
+          "linhas": [
+            129
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "1 letra por item, \".\"=em branco, \"*\"=múltiplo"
+          ]
+        },
+        "DS_VT_ACE_OCE": {
+          "tipo": "C",
+          "descricao": "Vetor que representa os acertos da parte objetiva do Componente Específico",
+          "linhas": [
+            130,
+            131,
+            132,
+            133
+          ],
+          "dominio": {
+            "0": "Errado",
+            "1": "Certo",
+            "8": "Anulada pela comissão",
+            "9": "Anulada pelo índice de discriminação"
+          },
+          "texto_dominio": [
+            "0 = Errado",
+            "1 = Certo",
+            "8 = Anulada pela comissão",
+            "9 = Anulada pelo índice de discriminação"
+          ]
+        },
+        "TP_PRES": {
+          "tipo": "N",
+          "descricao": "Tipo de presença no Enade",
+          "linhas": [
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141
+          ],
+          "dominio": {
+            "222": "Ausente",
+            "334": "Eliminado por participação indevida",
+            "444": "Ausente devido a dupla graduação",
+            "555": "Presente com resultado válido",
+            "565": "Dispensado da prova, por ausência de ensalamento",
+            "585": "Dispensado da prova, por fenômenos da natureza",
+            "888": "Presente na prova, com resultado desconsiderado pelo Inep"
+          },
+          "texto_dominio": [
+            "222 = Ausente",
+            "334 = Eliminado por participação indevida",
+            "444 = Ausente devido a dupla graduação",
+            "555 = Presente com resultado válido",
+            "565 = Dispensado da prova, por ausência de ensalamento",
+            "585 = Dispensado da prova, por fenômenos da natureza",
+            "888 = Presente na prova, com resultado desconsiderado pelo Inep"
+          ]
+        },
+        "TP_PR_GER": {
+          "tipo": "N",
+          "descricao": "Tipo de presença na prova",
+          "linhas": [
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149
+          ],
+          "dominio": {
+            "222": "Não se aplica (estudante ausente)**",
+            "333": "Participação com prova em branco*",
+            "334": "Não se aplica (estudante eliminado)**",
+            "555": "Participação com respostas válidas na prova*",
+            "565": "Não se aplica (estudante dispensado da prova)**",
+            "585": "Não se aplica (estudante dispensado da prova)**",
+            "888": "Participação com resultado desconsiderado pelo Inep**"
+          },
+          "texto_dominio": [
+            "222 = Não se aplica (estudante ausente)**",
+            "333 = Participação com prova em branco*",
+            "334 = Não se aplica (estudante eliminado)**",
+            "555 = Participação com respostas válidas na prova*",
+            "565 = Não se aplica (estudante dispensado da prova)**",
+            "585 = Não se aplica (estudante dispensado da prova)**",
+            "888 = Participação com resultado desconsiderado pelo Inep**",
+            "Nota: (*) resultado considerado para o cálculo da nota do estudante;\n(**) resultado desconsiderado para o cálculo da nota do estudante."
+          ]
+        },
+        "TP_PR_OB_FG": {
+          "tipo": "N",
+          "descricao": "Tipo de presença na parte objetiva na formação geral",
+          "linhas": [
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157
+          ],
+          "dominio": {
+            "222": "Não se aplica (estudante ausente)**",
+            "333": "Participação com prova em branco*",
+            "334": "Não se aplica (estudante eliminado)**",
+            "555": "Participação com respostas válidas na prova*",
+            "565": "Não se aplica (estudante dispensado da prova)**",
+            "585": "Não se aplica (estudante dispensado da prova)**",
+            "888": "Participação com resultado desconsiderado pelo Inep**"
+          },
+          "texto_dominio": [
+            "222 = Não se aplica (estudante ausente)**",
+            "333 = Participação com prova em branco*",
+            "334 = Não se aplica (estudante eliminado)**",
+            "555 = Participação com respostas válidas na prova*",
+            "565 = Não se aplica (estudante dispensado da prova)**",
+            "585 = Não se aplica (estudante dispensado da prova)**",
+            "888 = Participação com resultado desconsiderado pelo Inep**",
+            "Nota: (*) resultado considerado para o cálculo da nota do estudante;\n(**) resultado desconsiderado para o cálculo da nota do estudante."
+          ]
+        },
+        "TP_PR_DI_FG": {
+          "tipo": "N",
+          "descricao": "Tipo de presença na parte discursiva na formação geral",
+          "linhas": [
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167
+          ],
+          "dominio": {
+            "222": "Não se aplica (estudante ausente)**",
+            "333": "Participação com prova em branco*",
+            "334": "Não se aplica (estudante eliminado)**",
+            "335": "Prova com todas as questões com resposta nula (zerada)*",
+            "336": "Prova com todas as questões com resposta desconsiderada*",
+            "555": "Participação com respostas válidas na prova*",
+            "565": "Não se aplica (estudante dispensado da prova)**",
+            "585": "Não se aplica (estudante dispensado da prova)**",
+            "888": "Participação com resultado desconsiderado pelo Inep**"
+          },
+          "texto_dominio": [
+            "222 = Não se aplica (estudante ausente)**",
+            "333 = Participação com prova em branco*",
+            "334 = Não se aplica (estudante eliminado)**",
+            "335 = Prova com todas as questões com resposta nula (zerada)*",
+            "336 = Prova com todas as questões com resposta desconsiderada*",
+            "555 = Participação com respostas válidas na prova*",
+            "565 = Não se aplica (estudante dispensado da prova)**",
+            "585 = Não se aplica (estudante dispensado da prova)**",
+            "888 = Participação com resultado desconsiderado pelo Inep**",
+            "Nota: (*) resultado considerado para o cálculo da nota do estudante;\n(**) resultado desconsiderado para o cálculo da nota do estudante."
+          ]
+        },
+        "TP_PR_OB_CE": {
+          "tipo": "N",
+          "descricao": "Tipo de presença na parte objetiva no componente específico",
+          "linhas": [
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "dominio": {
+            "222": "Não se aplica (estudante ausente)**",
+            "333": "Participação com prova em branco*",
+            "334": "Não se aplica (estudante eliminado)**",
+            "555": "Participação com respostas válidas na prova*",
+            "565": "Não se aplica (estudante dispensado da prova)**",
+            "585": "Não se aplica (estudante dispensado da prova)**",
+            "888": "Participação com resultado desconsiderado pelo Inep**"
+          },
+          "texto_dominio": [
+            "222 = Não se aplica (estudante ausente)**",
+            "333 = Participação com prova em branco*",
+            "334 = Não se aplica (estudante eliminado)**",
+            "555 = Participação com respostas válidas na prova*",
+            "565 = Não se aplica (estudante dispensado da prova)**",
+            "585 = Não se aplica (estudante dispensado da prova)**",
+            "888 = Participação com resultado desconsiderado pelo Inep**",
+            "Nota: (*) resultado considerado para o cálculo da nota do estudante;\n(**) resultado desconsiderado para o cálculo da nota do estudante."
+          ]
+        },
+        "TP_PR_DI_CE": {
+          "tipo": "N",
+          "descricao": "Tipo de presença na parte discursiva no componente específico",
+          "linhas": [
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "dominio": {
+            "222": "Não se aplica (estudante ausente)**",
+            "333": "Participação com prova em branco*",
+            "334": "Não se aplica (estudante eliminado)**",
+            "335": "Prova com todas as questões com resposta nula (zerada)*",
+            "336": "Prova com todas as questões com resposta desconsiderada*",
+            "555": "Participação com respostas válidas na prova*",
+            "565": "Não se aplica (estudante dispensado da prova)**",
+            "585": "Não se aplica (estudante dispensado da prova)**",
+            "888": "Participação com resultado desconsiderado pelo Inep**"
+          },
+          "texto_dominio": [
+            "222 = Não se aplica (estudante ausente)**",
+            "333 = Participação com prova em branco*",
+            "334 = Não se aplica (estudante eliminado)**",
+            "335 = Prova com todas as questões com resposta nula (zerada)*",
+            "336 = Prova com todas as questões com resposta desconsiderada*",
+            "555 = Participação com respostas válidas na prova*",
+            "565 = Não se aplica (estudante dispensado da prova)**",
+            "585 = Não se aplica (estudante dispensado da prova)**",
+            "888 = Participação com resultado desconsiderado pelo Inep**",
+            "Nota: (*) resultado considerado para o cálculo da nota do estudante;\n(**) resultado desconsiderado para o cálculo da nota do estudante."
+          ]
+        },
+        "TP_SFG_D1": {
+          "tipo": "N",
+          "descricao": "Tipo de situação da questão 1 da parte discursiva da formação geral",
+          "linhas": [
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197
+          ],
+          "dominio": {
+            "222": "Não se aplica (estudante ausente)**",
+            "333": "Questão em branco - estudante presente (nota=zero)*",
+            "335": "Questão zerada por motivo de resposta nula*",
+            "336": "Questão com resposta divergente da temática (nota=zero)*",
+            "555": "Questão com resultado válido*",
+            "565": "Não se aplica (estudante dispensado da prova)**",
+            "585": "Não se aplica (estudante dispensado da prova)**",
+            "888": "Participação com resultado desconsiderado pelo Inep**",
+            "666": "Questão anulada**"
+          },
+          "texto_dominio": [
+            "222 = Não se aplica (estudante ausente)**",
+            "333 = Questão em branco - estudante presente (nota=zero)*",
+            "335 = Questão zerada por motivo de resposta nula*",
+            "336 = Questão com resposta divergente da temática (nota=zero)*",
+            "555 = Questão com resultado válido*",
+            "565 = Não se aplica (estudante dispensado da prova)**",
+            "585 = Não se aplica (estudante dispensado da prova)**",
+            "888 = Participação com resultado desconsiderado pelo Inep**",
+            "666 = Questão anulada**",
+            "Nota: (*) resultado considerado para o cálculo da nota do estudante;\n(**) resultado desconsiderado para o cálculo da nota do estudante."
+          ]
+        },
+        "TP_SCE_D1": {
+          "tipo": "N",
+          "descricao": "Tipo de situação da questão 1 da parte discursiva do componente específico",
+          "linhas": [
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207
+          ],
+          "dominio": {
+            "222": "Não se aplica (estudante ausente)**",
+            "333": "Questão em branco - estudante presente (nota=zero)*",
+            "335": "Questão zerada por motivo de resposta nula*",
+            "336": "Questão com resposta divergente da temática (nota=zero)*",
+            "555": "Questão com resultado válido*",
+            "565": "Não se aplica (estudante dispensado da prova)**",
+            "585": "Não se aplica (estudante dispensado da prova)**",
+            "888": "Participação com resultado desconsiderado pelo Inep**",
+            "666": "Questão anulada**"
+          },
+          "texto_dominio": [
+            "222 = Não se aplica (estudante ausente)**",
+            "333 = Questão em branco - estudante presente (nota=zero)*",
+            "335 = Questão zerada por motivo de resposta nula*",
+            "336 = Questão com resposta divergente da temática (nota=zero)*",
+            "555 = Questão com resultado válido*",
+            "565 = Não se aplica (estudante dispensado da prova)**",
+            "585 = Não se aplica (estudante dispensado da prova)**",
+            "888 = Participação com resultado desconsiderado pelo Inep**",
+            "666 = Questão anulada**",
+            "Nota: (*) resultado considerado para o cálculo da nota do estudante;\n(**) resultado desconsiderado para o cálculo da nota do estudante."
+          ]
+        },
+        "NT_GER": {
+          "tipo": "N",
+          "descricao": "Nota bruta da prova - Média ponderada da formação geral (25%) e componente específico (75%). (valor de 0 a 100)",
+          "linhas": [
+            209
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 99"
+          ]
+        },
+        "NT_FG": {
+          "tipo": "N",
+          "descricao": "Nota bruta na formação geral - Média ponderada da parte objetiva (60%) e discursiva (40%) na formação geral. (valor de 0 a 100)",
+          "linhas": [
+            210
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_OBJ_FG": {
+          "tipo": "N",
+          "descricao": "Nota bruta na parte objetiva da formação geral. (valor de 0 a 100)",
+          "linhas": [
+            211
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_DIS_FG": {
+          "tipo": "N",
+          "descricao": "Nota bruta na parte discursiva da formação geral.  (valor de 0 a 100)",
+          "linhas": [
+            212
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_FG_D1": {
+          "tipo": "N",
+          "descricao": "Nota da questão 1 da parte discursiva da formação geral - Média ponderada da parte de Língua Portuguesa (20%) e Conteúdo (80%) da Questão 1 da parte discursiva (valor de 0 a 100)",
+          "linhas": [
+            213
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_FG_D1_PT": {
+          "tipo": "N",
+          "descricao": "Nota de Língua Portuguesa da questão 1 da parte discursiva da formação geral.  (valor de 0 a 100)",
+          "linhas": [
+            214
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_FG_D1_CT": {
+          "tipo": "N",
+          "descricao": "Nota de Conteúdo da questão 1 da parte discursiva da formação geral. (valor de 0 a 100)",
+          "linhas": [
+            215
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_CE": {
+          "tipo": "N",
+          "descricao": "Nota bruta no componente específico - Média ponderada da parte objetiva (85%) e discursiva (15%) no componente específico. (valor de 0 a 100)",
+          "linhas": [
+            216
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_OBJ_CE": {
+          "tipo": "N",
+          "descricao": "Nota bruta na parte objetiva do componente específico. (valor de 0 a 100)",
+          "linhas": [
+            217
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_DIS_CE": {
+          "tipo": "N",
+          "descricao": "Nota bruta na parte discursiva do componente específico. (valor de 0 a 100)",
+          "linhas": [
+            218
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "NT_CE_D1": {
+          "tipo": "N",
+          "descricao": "Nota da questão 1 da parte discursiva do componente específico. (valor de 0 a 100)",
+          "linhas": [
+            219
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Min = 0\nMax = 100"
+          ]
+        },
+        "CO_RS_I1": {
+          "tipo": "C",
+          "descricao": "1 - Qual o grau de dificuldade desta prova na parte de Formação Geral?",
+          "linhas": [
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Muito fácil.",
+            "B = Fácil.",
+            "C = Médio.",
+            "D = Difícil.",
+            "E = Muito difícil.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I2": {
+          "tipo": "C",
+          "descricao": "2 - Qual o grau de dificuldade desta prova na parte do Componente Específico?",
+          "linhas": [
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Muito fácil.",
+            "B = Fácil.",
+            "C = Médio.",
+            "D = Difícil.",
+            "E = Muito difícil.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I3": {
+          "tipo": "C",
+          "descricao": "3 - Considerando a extensão da prova, em relação ao tempo total, você considera que a prova foi:",
+          "linhas": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Muito longa.",
+            "B = Longa.",
+            "C = Adequada.",
+            "D = Curta.",
+            "E = Muito curta.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I4": {
+          "tipo": "C",
+          "descricao": "4 - Os enunciados das questões da prova na parte de Formação Geral estavam claros e objetivos?",
+          "linhas": [
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Sim, todos.",
+            "B = Sim, a maioria.",
+            "C = Apenas cerca da metade.",
+            "D = Poucos.",
+            "E = Não, nenhum.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I5": {
+          "tipo": "C",
+          "descricao": "5 - Os enunciados das questões na parte do Componente Específico estavam claros e objetivos?",
+          "linhas": [
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Sim, todos.",
+            "B = Sim, a maioria.",
+            "C = Apenas cerca da metade.",
+            "D = Poucos se apresentam.",
+            "E = Não, nenhum.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I6": {
+          "tipo": "C",
+          "descricao": "6 - As informações/instruções fornecidas para a resolução das questões foram suficientes para resolvê-las?",
+          "linhas": [
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Sim, até excessivas.",
+            "B = Sim, em todas elas.",
+            "C = Sim, na maioria delas.",
+            "D = Sim, somente em algumas.",
+            "E = Não, em nenhuma delas.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I7": {
+          "tipo": "C",
+          "descricao": "7 - Você se deparou com alguma dificuldade ao responder à prova. Qual?",
+          "linhas": [
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Desconhecimento do conteúdo.",
+            "B = Forma diferente de abordagem do conteúdo.",
+            "C = Espaço insuficiente para responder às questões.",
+            "D = Falta de motivação para fazer a prova.",
+            "E = Não tive qualquer tipo de dificuldade para responder à prova.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I8": {
+          "tipo": "C",
+          "descricao": "8 - Considerando apenas as questões objetivas da prova, você percebeu que:",
+          "linhas": [
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Não estudou ainda a maioria desses conteúdos.",
+            "B = Estudou alguns desses conteúdos, mas não os aprendeu.",
+            "C = Estudou a maioria desses conteúdos, mas não os aprendeu.",
+            "D = Estudou e aprendeu muitos desses conteúdos.",
+            "E = Estudou e aprendeu todos esses conteúdos.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "CO_RS_I9": {
+          "tipo": "C",
+          "descricao": "9 - Qual foi o tempo gasto por você para concluir a prova?",
+          "linhas": [
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Menos de uma hora.",
+            "B = Entre uma e duas horas.",
+            "C = Entre duas e três horas.",
+            "D = Entre três e quatro horas.",
+            "E = Quatro horas e não consegui terminar.",
+            "* = Resposta anulada",
+            ". = Sem resposta",
+            "Valor em branco= Resposta não válida"
+          ]
+        },
+        "QE_I01": {
+          "tipo": "C",
+          "descricao": "Qual o seu estado civil?",
+          "linhas": [
+            295,
+            296,
+            297,
+            298,
+            299
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Solteiro(a).",
+            "B = Casado(a).",
+            "C = Separado(a) judicialmente/divorciado(a).",
+            "D = Viúvo(a).",
+            "E = Outro."
+          ]
+        },
+        "QE_I02": {
+          "tipo": "C",
+          "descricao": "Qual é a sua cor ou raça?",
+          "linhas": [
+            300,
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Branca.",
+            "B = Preta.",
+            "C = Amarela.",
+            "D = Parda.",
+            "E = Indígena.",
+            "F = Não quero declarar."
+          ]
+        },
+        "QE_I03": {
+          "tipo": "C",
+          "descricao": "Qual a sua nacionalidade?",
+          "linhas": [
+            306,
+            307,
+            308
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Brasileira.",
+            "B = Brasileira naturalizada.",
+            "C = Estrangeira."
+          ]
+        },
+        "QE_I04": {
+          "tipo": "C",
+          "descricao": "Até que etapa de escolarização seu pai concluiu?",
+          "linhas": [
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Nenhuma.",
+            "B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).",
+            "C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).",
+            "D = Ensino Médio.",
+            "E = Ensino Superior - Graduação.",
+            "F = Pós-graduação."
+          ]
+        },
+        "QE_I05": {
+          "tipo": "C",
+          "descricao": "Até que etapa de escolarização sua mãe concluiu?",
+          "linhas": [
+            315,
+            316,
+            317,
+            318,
+            319,
+            320
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Nenhuma.",
+            "B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).",
+            "C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).",
+            "D = Ensino médio.",
+            "E = Ensino Superior - Graduação.",
+            "F = Pós-graduação."
+          ]
+        },
+        "QE_I06": {
+          "tipo": "C",
+          "descricao": "Onde e com quem você mora atualmente?",
+          "linhas": [
+            321,
+            322,
+            323,
+            324,
+            325,
+            326
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Em casa ou apartamento, sozinho.",
+            "B = Em casa ou apartamento, com pais e/ou parentes.",
+            "C = Em casa ou apartamento, com cônjuge e/ou filhos.",
+            "D = Em casa ou apartamento, com outras pessoas (incluindo república).",
+            "E = Em alojamento universitário da própria instituição.",
+            "F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro)."
+          ]
+        },
+        "QE_I08": {
+          "tipo": "C",
+          "descricao": "Qual a renda total de sua família, incluindo seus rendimentos?",
+          "linhas": [
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Até 1,5 salário mínimo (até R$ 1.980,00).",
+            "B = De 1,5 a 3 salários mínimos (R$ 1.980,01 a R$ 3.960,00).",
+            "C = De 3 a 4,5 salários mínimos (R$ 3.960,01 a R$ 5.940,00).",
+            "D = De 4,5 a 6 salários mínimos (R$ 5.940,01 a R$ 7.920,00).",
+            "E = De 6 a 10 salários mínimos (R$ 7.920,01 a R$ 13.200,00).",
+            "F = De 10 a 30 salários mínimos (R$ 13.200,01 a R$ 39.600,00).",
+            "G = Acima de 30 salários mínimos (mais de R$ 39.600,00)."
+          ]
+        },
+        "QE_I09": {
+          "tipo": "C",
+          "descricao": "Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?",
+          "linhas": [
+            342,
+            343,
+            344,
+            345,
+            346,
+            347
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Não tenho renda e meus gastos são financiados por programas governamentais.",
+            "B = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas.",
+            "C = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos.",
+            "D = Tenho renda e não preciso de ajuda para financiar meus gastos.",
+            "E = Tenho renda e contribuo com o sustento da família.",
+            "F = Sou o principal responsável pelo sustento da família."
+          ]
+        },
+        "QE_I10": {
+          "tipo": "C",
+          "descricao": "Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?",
+          "linhas": [
+            348,
+            349,
+            350,
+            351,
+            352
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Não estou trabalhando.",
+            "B = Trabalho eventualmente.",
+            "C = Trabalho até 20 horas semanais.",
+            "D = Trabalho de 21 a 39 horas semanais.",
+            "E = Trabalho 40 horas semanais ou mais."
+          ]
+        },
+        "QE_I11": {
+          "tipo": "C",
+          "descricao": "Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",
+          "linhas": [
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Nenhum, pois meu curso é gratuito.",
+            "B = Nenhum, embora meu curso não seja gratuito.",
+            "C = ProUni integral.",
+            "D = ProUni parcial, apenas.",
+            "E = FIES, apenas.",
+            "F = ProUni Parcial e FIES.",
+            "G = Bolsa oferecida por governo estadual, distrital ou municipal.",
+            "H = Bolsa oferecida pela própria instituição.",
+            "I = Bolsa oferecida por outra entidade (empresa, ONG, outra).",
+            "J = Financiamento oferecido pela própria instituição.",
+            "K = Financiamento bancário."
+          ]
+        },
+        "QE_I12": {
+          "tipo": "C",
+          "descricao": "Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio de permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",
+          "linhas": [
+            364,
+            365,
+            366,
+            367,
+            368,
+            369
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Nenhum.",
+            "B = Auxílio moradia.",
+            "C = Auxílio alimentação.",
+            "D = Auxílio moradia e alimentação.",
+            "E = Auxílio Permanência.",
+            "F = Outro tipo de auxílio."
+          ]
+        },
+        "QE_I13": {
+          "tipo": "C",
+          "descricao": "Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",
+          "linhas": [
+            370,
+            371,
+            372,
+            373,
+            374,
+            375
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Nenhum.",
+            "B = Bolsa de iniciação científica.",
+            "C = Bolsa de extensão.",
+            "D = Bolsa de monitoria/tutoria.",
+            "E = Bolsa PET.",
+            "F = Outro tipo de bolsa acadêmica."
+          ]
+        },
+        "QE_I14": {
+          "tipo": "C",
+          "descricao": "Durante o curso de graduação, você participou de programas e/ou atividades curriculares no exterior?",
+          "linhas": [
+            376,
+            377,
+            378,
+            379,
+            380,
+            381
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Não participei.",
+            "B = Sim, Programa Ciência sem Fronteiras.",
+            "C = Sim, programa de intercâmbio financiado pelo Governo Federal (Marca; Brafitec; PLI; outro).",
+            "D = Sim, programa de intercâmbio financiado pelo Governo Estadual.",
+            "E = Sim, programa de intercâmbio da minha instituição.",
+            "F = Sim, outro intercâmbio não institucional."
+          ]
+        },
+        "QE_I15": {
+          "tipo": "C",
+          "descricao": "Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?",
+          "linhas": [
+            382,
+            383,
+            384,
+            385,
+            386,
+            387
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Não.",
+            "B = Sim, por critério étnico-racial.",
+            "C = Sim, por critério de renda.",
+            "D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.",
+            "E = Sim, por sistema que combina dois ou mais critérios anteriores.",
+            "F = Sim, por sistema diferente dos anteriores."
+          ]
+        },
+        "QE_I16": {
+          "tipo": "N",
+          "descricao": "Em que unidade da Federação você concluiu o ensino médio?",
+          "linhas": [
+            388,
+            389,
+            390,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396,
+            397,
+            398,
+            399,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408,
+            409,
+            410,
+            411,
+            412,
+            413,
+            414,
+            415,
+            416
+          ],
+          "dominio": {
+            "11": "Rondônia (RO)",
+            "12": "Acre (AC)",
+            "13": "Amazonas (AM)",
+            "14": "Roraima (RR)",
+            "15": "Pará (PA)",
+            "16": "Amapa (AP)",
+            "17": "Tocantins (TO)",
+            "21": "Maranhão (MA)",
+            "22": "Piauí (PI)",
+            "23": "Ceará (CE)",
+            "24": "Rio Grande do Norte (RN)",
+            "25": "Paraíba (PB)",
+            "26": "Pernambuco (PE)",
+            "27": "Alagoas (AL)",
+            "28": "Sergipe (SE)",
+            "29": "Bahia (BA)",
+            "31": "Minas gerais (MG)",
+            "32": "Espírito Santo (ES)",
+            "33": "Rio de Janeiro (RJ)",
+            "35": "São Paulo (SP)",
+            "41": "Paraná (PR)",
+            "42": "Santa Catarina (SC)",
+            "43": "Rio Grande do Sul (RS)",
+            "50": "Mato Grosso do Sul (MS)",
+            "51": "Mato Grosso (MT)",
+            "52": "Goiás (GO)",
+            "53": "Distrito federal (DF)",
+            "99": "Não se aplica"
+          },
+          "texto_dominio": [
+            "Conforme código do IBGE",
+            "11 = Rondônia (RO)",
+            "12 = Acre (AC)",
+            "13 = Amazonas (AM)",
+            "14 = Roraima (RR)",
+            "15 = Pará (PA)",
+            "16 = Amapa (AP)",
+            "17 = Tocantins (TO)",
+            "21 = Maranhão (MA)",
+            "22 = Piauí (PI)",
+            "23 = Ceará (CE)",
+            "24 = Rio Grande do Norte (RN)",
+            "25 = Paraíba (PB)",
+            "26 = Pernambuco (PE)",
+            "27 = Alagoas (AL)",
+            "28 = Sergipe (SE)",
+            "29 = Bahia (BA)",
+            "31 = Minas gerais (MG)",
+            "32 = Espírito Santo (ES)",
+            "33 = Rio de Janeiro (RJ)",
+            "35 = São Paulo (SP)",
+            "41 = Paraná (PR)",
+            "42 = Santa Catarina (SC)",
+            "43 = Rio Grande do Sul (RS)",
+            "50 = Mato Grosso do Sul (MS)",
+            "51 = Mato Grosso (MT)",
+            "52 = Goiás (GO)",
+            "53 = Distrito federal (DF)",
+            "99 = Não se aplica"
+          ]
+        },
+        "QE_I17": {
+          "tipo": "C",
+          "descricao": "Em que tipo de escola você cursou o ensino médio?",
+          "linhas": [
+            417,
+            418,
+            419,
+            420,
+            421,
+            422
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Todo em escola pública.",
+            "B = Todo em escola privada (particular).",
+            "C = Todo no exterior.",
+            "D = A maior parte em escola pública.",
+            "E = A maior parte em escola privada (particular).",
+            "F = Parte no Brasil e parte no exterior."
+          ]
+        },
+        "QE_I18": {
+          "tipo": "C",
+          "descricao": "Qual modalidade de ensino médio você concluiu?",
+          "linhas": [
+            423,
+            424,
+            425,
+            426,
+            427
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Ensino médio tradicional.",
+            "B = Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro).",
+            "C = Profissionalizante magistério (Curso Normal).",
+            "D = Educação de Jovens e Adultos (EJA) e/ou Supletivo.",
+            "E = Outra modalidade."
+          ]
+        },
+        "QE_I19": {
+          "tipo": "C",
+          "descricao": "Quem lhe deu maior incentivo para cursar a graduação?",
+          "linhas": [
+            428,
+            429,
+            430,
+            431,
+            432,
+            433,
+            434
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Ninguém.",
+            "B = Pais.",
+            "C = Outros membros da família que não os pais.",
+            "D = Professores.",
+            "E = Líder ou representante religioso.",
+            "F = Colegas/Amigos.",
+            "G = Outras pessoas."
+          ]
+        },
+        "QE_I20": {
+          "tipo": "C",
+          "descricao": "Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?",
+          "linhas": [
+            435,
+            436,
+            437,
+            438,
+            439,
+            440,
+            441,
+            442,
+            443,
+            444,
+            445
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Não tive dificuldade.",
+            "B = Não recebi apoio para enfrentar dificuldades.",
+            "C = Pais.",
+            "D = Avós.",
+            "E = Irmãos, primos ou tios.",
+            "F = Líder ou representante religioso.",
+            "G = Colegas de curso ou amigos.",
+            "H = Professores do curso.",
+            "I = Profissionais do serviço de apoio ao estudante da IES.",
+            "J = Colegas de trabalho.",
+            "K = Outro grupo."
+          ]
+        },
+        "QE_I21": {
+          "tipo": "C",
+          "descricao": "Alguém em sua família concluiu um curso superior?",
+          "linhas": [
+            446,
+            447
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Sim.",
+            "B = Não."
+          ]
+        },
+        "QE_I22": {
+          "tipo": "C",
+          "descricao": "Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?",
+          "linhas": [
+            448,
+            449,
+            450,
+            451,
+            452
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Nenhum.",
+            "B = Um ou dois.",
+            "C = De três a cinco.",
+            "D = De seis a oito.",
+            "E = Mais de oito."
+          ]
+        },
+        "QE_I23": {
+          "tipo": "C",
+          "descricao": "Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?",
+          "linhas": [
+            453,
+            454,
+            455,
+            456,
+            457
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Nenhuma, apenas assisto às aulas.",
+            "B = De uma a três.",
+            "C = De quatro a sete.",
+            "D = De oito a doze.",
+            "E = Mais de doze."
+          ]
+        },
+        "QE_I24": {
+          "tipo": "C",
+          "descricao": "Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?",
+          "linhas": [
+            458,
+            459,
+            460,
+            461,
+            462
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Sim, somente na modalidade presencial.",
+            "B = Sim, somente na modalidade semipresencial.",
+            "C = Sim, parte na modalidade presencial e parte na modalidade semipresencial.",
+            "D = Sim, na modalidade a distância.",
+            "E = Não."
+          ]
+        },
+        "QE_I25": {
+          "tipo": "C",
+          "descricao": "Qual o principal motivo para você ter escolhido este curso?",
+          "linhas": [
+            463,
+            464,
+            465,
+            466,
+            467,
+            468,
+            469,
+            470
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Inserção no mercado de trabalho.",
+            "B = Influência familiar.",
+            "C = Valorização profissional.",
+            "D = Prestígio Social.",
+            "E = Vocação.",
+            "F = Oferecido na modalidade a distância.",
+            "G = Baixa concorrência para ingresso.",
+            "H = Outro motivo."
+          ]
+        },
+        "QE_I26": {
+          "tipo": "C",
+          "descricao": "Qual a principal razão para você ter escolhido a sua instituição de educação superior?",
+          "linhas": [
+            471,
+            472,
+            473,
+            474,
+            475,
+            476,
+            477,
+            478,
+            479
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "A = Gratuidade.",
+            "B = Preço da mensalidade.",
+            "C = Proximidade da minha residência.",
+            "D = Proximidade do meu trabalho.",
+            "E = Facilidade de acesso.",
+            "F = Qualidade/reputação.",
+            "G = Foi a única onde tive aprovação.",
+            "H = Possibilidade de ter bolsa de estudo.",
+            "I = Outro motivo."
+          ]
+        },
+        "QE_I27": {
+          "tipo": "N",
+          "descricao": "As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",
+          "linhas": [
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487,
+            488
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I28": {
+          "tipo": "N",
+          "descricao": "Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.",
+          "linhas": [
+            489,
+            490,
+            491,
+            492,
+            493,
+            494,
+            495,
+            496
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I29": {
+          "tipo": "N",
+          "descricao": "As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.",
+          "linhas": [
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            504
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I30": {
+          "tipo": "N",
+          "descricao": "O curso propiciou experiências de aprendizagem inovadoras.",
+          "linhas": [
+            505,
+            506,
+            507,
+            508,
+            509,
+            510,
+            511,
+            512
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I31": {
+          "tipo": "N",
+          "descricao": "O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.",
+          "linhas": [
+            513,
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I32": {
+          "tipo": "N",
+          "descricao": "No curso você teve oportunidade de aprender a trabalhar em equipe.",
+          "linhas": [
+            521,
+            522,
+            523,
+            524,
+            525,
+            526,
+            527,
+            528
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I33": {
+          "tipo": "N",
+          "descricao": "O curso possibilitou aumentar sua capacidade de reflexão e argumentação.",
+          "linhas": [
+            529,
+            530,
+            531,
+            532,
+            533,
+            534,
+            535,
+            536
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I34": {
+          "tipo": "N",
+          "descricao": "O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",
+          "linhas": [
+            537,
+            538,
+            539,
+            540,
+            541,
+            542,
+            543,
+            544
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I35": {
+          "tipo": "N",
+          "descricao": "O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.",
+          "linhas": [
+            545,
+            546,
+            547,
+            548,
+            549,
+            550,
+            551,
+            552
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I36": {
+          "tipo": "N",
+          "descricao": "O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.",
+          "linhas": [
+            553,
+            554,
+            555,
+            556,
+            557,
+            558,
+            559,
+            560
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I37": {
+          "tipo": "N",
+          "descricao": "As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.",
+          "linhas": [
+            561,
+            562,
+            563,
+            564,
+            565,
+            566,
+            567,
+            568
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I38": {
+          "tipo": "N",
+          "descricao": "Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.",
+          "linhas": [
+            569,
+            570,
+            571,
+            572,
+            573,
+            574,
+            575,
+            576
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I39": {
+          "tipo": "N",
+          "descricao": "As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.",
+          "linhas": [
+            577,
+            578,
+            579,
+            580,
+            581,
+            582,
+            583,
+            584
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I40": {
+          "tipo": "N",
+          "descricao": "Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.",
+          "linhas": [
+            585,
+            586,
+            587,
+            588,
+            589,
+            590,
+            591,
+            592
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I41": {
+          "tipo": "N",
+          "descricao": "A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.",
+          "linhas": [
+            593,
+            594,
+            595,
+            596,
+            597,
+            598,
+            599,
+            600
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I42": {
+          "tipo": "N",
+          "descricao": "O curso exigiu de você organização e dedicação frequente aos estudos.",
+          "linhas": [
+            601,
+            602,
+            603,
+            604,
+            605,
+            606,
+            607,
+            608
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I43": {
+          "tipo": "N",
+          "descricao": "Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",
+          "linhas": [
+            609,
+            610,
+            611,
+            612,
+            613,
+            614,
+            615,
+            616
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I44": {
+          "tipo": "N",
+          "descricao": "Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.",
+          "linhas": [
+            617,
+            618,
+            619,
+            620,
+            621,
+            622,
+            623,
+            624
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I45": {
+          "tipo": "N",
+          "descricao": "O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.",
+          "linhas": [
+            625,
+            626,
+            627,
+            628,
+            629,
+            630,
+            631,
+            632
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I46": {
+          "tipo": "N",
+          "descricao": "A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.",
+          "linhas": [
+            633,
+            634,
+            635,
+            636,
+            637,
+            638,
+            639,
+            640
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I47": {
+          "tipo": "N",
+          "descricao": "O curso favoreceu a articulação do conhecimento teórico com atividades práticas.",
+          "linhas": [
+            641,
+            642,
+            643,
+            644,
+            645,
+            646,
+            647,
+            648
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I48": {
+          "tipo": "N",
+          "descricao": "As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",
+          "linhas": [
+            649,
+            650,
+            651,
+            652,
+            653,
+            654,
+            655,
+            656
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I49": {
+          "tipo": "N",
+          "descricao": "O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.",
+          "linhas": [
+            657,
+            658,
+            659,
+            660,
+            661,
+            662,
+            663,
+            664
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I50": {
+          "tipo": "N",
+          "descricao": "O estágio supervisionado proporcionou experiências diversificadas para a sua formação.",
+          "linhas": [
+            665,
+            666,
+            667,
+            668,
+            669,
+            670,
+            671,
+            672
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I51": {
+          "tipo": "N",
+          "descricao": "As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional.",
+          "linhas": [
+            673,
+            674,
+            675,
+            676,
+            677,
+            678,
+            679,
+            680
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I52": {
+          "tipo": "N",
+          "descricao": "Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país. ",
+          "linhas": [
+            681,
+            682,
+            683,
+            684,
+            685,
+            686,
+            687,
+            688
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I53": {
+          "tipo": "N",
+          "descricao": "Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.",
+          "linhas": [
+            689,
+            690,
+            691,
+            692,
+            693,
+            694,
+            695,
+            696
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I54": {
+          "tipo": "N",
+          "descricao": "Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",
+          "linhas": [
+            697,
+            698,
+            699,
+            700,
+            701,
+            702,
+            703,
+            704
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I55": {
+          "tipo": "N",
+          "descricao": "As avaliações de aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.",
+          "linhas": [
+            705,
+            706,
+            707,
+            708,
+            709,
+            710,
+            711,
+            712
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I56": {
+          "tipo": "N",
+          "descricao": "Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.",
+          "linhas": [
+            713,
+            714,
+            715,
+            716,
+            717,
+            718,
+            719,
+            720
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I57": {
+          "tipo": "N",
+          "descricao": "Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.",
+          "linhas": [
+            721,
+            722,
+            723,
+            724,
+            725,
+            726,
+            727,
+            728
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I58": {
+          "tipo": "N",
+          "descricao": "Os professores utilizaram tecnologias da informação e comunicação (TIC's) como estratégia de ensino (projetor, multimídia, laboratório de informática, ambiente virtual de aprendizagem).",
+          "linhas": [
+            729,
+            730,
+            731,
+            732,
+            733,
+            734,
+            735,
+            736
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I59": {
+          "tipo": "N",
+          "descricao": "A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.",
+          "linhas": [
+            737,
+            738,
+            739,
+            740,
+            741,
+            742,
+            743,
+            744
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I60": {
+          "tipo": "N",
+          "descricao": "O curso disponibilizou monitores ou tutores para auxiliar os estudantes.",
+          "linhas": [
+            745,
+            746,
+            747,
+            748,
+            749,
+            750,
+            751,
+            752
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I61": {
+          "tipo": "N",
+          "descricao": "As condições de infraestrutura das salas de aula foram adequadas.",
+          "linhas": [
+            753,
+            754,
+            755,
+            756,
+            757,
+            758,
+            759,
+            760
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I62": {
+          "tipo": "N",
+          "descricao": "Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.",
+          "linhas": [
+            761,
+            762,
+            763,
+            764,
+            765,
+            766,
+            767,
+            768
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I63": {
+          "tipo": "N",
+          "descricao": "Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.",
+          "linhas": [
+            769,
+            770,
+            771,
+            772,
+            773,
+            774,
+            775,
+            776
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I64": {
+          "tipo": "N",
+          "descricao": "A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.",
+          "linhas": [
+            777,
+            778,
+            779,
+            780,
+            781,
+            782,
+            783,
+            784
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I65": {
+          "tipo": "N",
+          "descricao": "A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.",
+          "linhas": [
+            785,
+            786,
+            787,
+            788,
+            789,
+            790,
+            791,
+            792
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I66": {
+          "tipo": "N",
+          "descricao": "As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",
+          "linhas": [
+            793,
+            794,
+            795,
+            796,
+            797,
+            798,
+            799,
+            800
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I67": {
+          "tipo": "N",
+          "descricao": "A instituição promoveu atividades de cultura, de lazer e de interação social.",
+          "linhas": [
+            801,
+            802,
+            803,
+            804,
+            805,
+            806,
+            807,
+            808
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        },
+        "QE_I68": {
+          "tipo": "N",
+          "descricao": "A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",
+          "linhas": [
+            809,
+            810,
+            811,
+            812,
+            813,
+            814,
+            815,
+            816
+          ],
+          "dominio": {
+            "1": "Discordo totalmente.",
+            "2": "Discordo.",
+            "3": "Discordo parcialmente.",
+            "4": "Concordo parcialmente.",
+            "5": "Concordo.",
+            "6": "Concordo totalmente.",
+            "7": "Não sei responder.",
+            "8": "Não se aplica."
+          },
+          "texto_dominio": [
+            "1 = Discordo totalmente.",
+            "2 = Discordo.",
+            "3 = Discordo parcialmente.",
+            "4 = Concordo parcialmente.",
+            "5 = Concordo.",
+            "6 = Concordo totalmente.",
+            "7 = Não sei responder.",
+            "8 = Não se aplica."
+          ]
+        }
+      }
+    }
+  },
+  "censo": {
+    "membro": "microdados_censo_da_educacao_superior_2023/Anexos/ANEXO I - Dicionário de Dados/dicionário_dados_educação_superior.xlsx",
+    "abas": {
+      "cadastro_ies": {
+        "NU_ANO_CENSO": {
+          "tipo": "Num",
+          "descricao": "Ano de referência do Censo da Educação Superior",
+          "linhas": [
+            9
+          ],
+          "dominio": {}
+        },
+        "NO_REGIAO_IES": {
+          "tipo": "Char",
+          "descricao": "Nome da região geográfica da sede administrativa ou reitoria da IES",
+          "linhas": [
+            11
+          ],
+          "dominio": {}
+        },
+        "CO_REGIAO_IES": {
+          "tipo": "Num",
+          "descricao": "Código da região geográfica da sede administrativa ou reitoria da IES",
+          "linhas": [
+            12
+          ],
+          "dominio": {}
+        },
+        "NO_UF_IES": {
+          "tipo": "Char",
+          "descricao": "Nome da Unidade da Federação da sede administrativa ou reitoria da IES",
+          "linhas": [
+            13
+          ],
+          "dominio": {}
+        },
+        "SG_UF_IES": {
+          "tipo": "Char",
+          "descricao": "Sigla da Unidade da Federação da sede administrativa ou reitoria da IES",
+          "linhas": [
+            14
+          ],
+          "dominio": {}
+        },
+        "CO_UF_IES": {
+          "tipo": "Num",
+          "descricao": "Código da Unidade da Federação da sede administrativa ou reitoria da IES",
+          "linhas": [
+            15
+          ],
+          "dominio": {}
+        },
+        "NO_MUNICIPIO_IES": {
+          "tipo": "Char",
+          "descricao": "Nome do Município da sede administrativa ou reitoria da IES",
+          "linhas": [
+            16
+          ],
+          "dominio": {}
+        },
+        "CO_MUNICIPIO_IES": {
+          "tipo": "Num",
+          "descricao": "Código do Município da sede administrativa ou reitoria da IES",
+          "linhas": [
+            17
+          ],
+          "dominio": {}
+        },
+        "IN_CAPITAL_IES": {
+          "tipo": "Num",
+          "descricao": "Informa se a sede administrativa ou reitoria da IES está localizada na capital da Unidade da Federação",
+          "linhas": [
+            18
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "NO_MESORREGIAO_IES": {
+          "tipo": "Char",
+          "descricao": "Nome da Mesorregião da sede administrativa ou reitoria da IES",
+          "linhas": [
+            19
+          ],
+          "dominio": {}
+        },
+        "CO_MESORREGIAO_IES": {
+          "tipo": "Num",
+          "descricao": "Código da Mesorregião da sede administrativa ou reitoria da IES",
+          "linhas": [
+            20
+          ],
+          "dominio": {}
+        },
+        "NO_MICRORREGIAO_IES": {
+          "tipo": "Char",
+          "descricao": "Nome da Microrregião da sede administrativa ou reitoria da IES",
+          "linhas": [
+            21
+          ],
+          "dominio": {}
+        },
+        "CO_MICRORREGIAO_IES": {
+          "tipo": "Num",
+          "descricao": "Código da Microrregião da sede administrativa ou reitoria da IES",
+          "linhas": [
+            22
+          ],
+          "dominio": {}
+        },
+        "TP_ORGANIZACAO_ACADEMICA": {
+          "tipo": "Num",
+          "descricao": "Tipo de Organização Acadêmica da IES",
+          "linhas": [
+            23
+          ],
+          "dominio": {
+            "1": "Universidade",
+            "2": "Centro Universitário",
+            "3": "Faculdade",
+            "4": "Instituto Federal de Educação, Ciência e Tecnologia",
+            "5": "Centro Federal de Educação Tecnológica"
+          },
+          "texto_dominio": [
+            "1. Universidade\n2. Centro Universitário\n3. Faculdade\n4. Instituto Federal de Educação, Ciência e Tecnologia                                \n5. Centro Federal de Educação Tecnológica"
+          ]
+        },
+        "TP_REDE": {
+          "tipo": "Num",
+          "descricao": "Rede de Ensino",
+          "linhas": [
+            24
+          ],
+          "dominio": {
+            "1": "Pública",
+            "2": "Privada"
+          },
+          "texto_dominio": [
+            "1. Pública\n2. Privada"
+          ]
+        },
+        "TP_CATEGORIA_ADMINISTRATIVA": {
+          "tipo": "Num",
+          "descricao": "Tipo de Categoria Administrativa da IES",
+          "linhas": [
+            25
+          ],
+          "dominio": {
+            "1": "Pública Federal",
+            "2": "Pública Estadual",
+            "3": "Pública Municipal",
+            "4": "Privada com fins lucrativos",
+            "5": "Privada sem fins lucrativos",
+            "6": "Privada - Particular em sentido estrito",
+            "7": "Especial",
+            "8": "Privada comunitária",
+            "9": "Privada confessional"
+          },
+          "texto_dominio": [
+            "1. Pública Federal\n2. Pública Estadual\n3. Pública Municipal\n4. Privada com fins lucrativos\n5. Privada sem fins lucrativos\n6. Privada - Particular em sentido estrito\n7. Especial\n8. Privada comunitária\n9. Privada confessional"
+          ]
+        },
+        "IN_COMUNITARIA": {
+          "tipo": "Num",
+          "descricao": "Informa se a instituição privada é comunitária",
+          "linhas": [
+            26
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Informa se a instituição privada é comunitária"
+          ]
+        },
+        "IN_CONFESSIONAL": {
+          "tipo": "Num",
+          "descricao": "Informa se a instituição privada é confessional",
+          "linhas": [
+            27
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Informa se a instituição privada é confessional"
+          ]
+        },
+        "NO_MANTENEDORA": {
+          "tipo": "Char",
+          "descricao": "Nome da mantenedora da IES",
+          "linhas": [
+            28
+          ],
+          "dominio": {}
+        },
+        "CO_MANTENEDORA": {
+          "tipo": "Num",
+          "descricao": "Código único de identificação da mantenedora da IES",
+          "linhas": [
+            29
+          ],
+          "dominio": {}
+        },
+        "CO_IES": {
+          "tipo": "Num",
+          "descricao": "Código único de identificação da IES",
+          "linhas": [
+            30
+          ],
+          "dominio": {}
+        },
+        "NO_IES": {
+          "tipo": "Char",
+          "descricao": "Nome da IES",
+          "linhas": [
+            31
+          ],
+          "dominio": {}
+        },
+        "SG_IES": {
+          "tipo": "Char",
+          "descricao": "Sigla da IES",
+          "linhas": [
+            32
+          ],
+          "dominio": {}
+        },
+        "DS_ENDERECO_IES": {
+          "tipo": "Char",
+          "descricao": "Endereço da sede administrativa/reitoria da IES",
+          "linhas": [
+            33
+          ],
+          "dominio": {}
+        },
+        "DS_NUMERO_ENDERECO_IES": {
+          "tipo": "Char",
+          "descricao": "Número do endereço",
+          "linhas": [
+            34
+          ],
+          "dominio": {}
+        },
+        "DS_COMPLEMENTO_ENDERECO_IES": {
+          "tipo": "Char",
+          "descricao": "Complemento do endereço",
+          "linhas": [
+            35
+          ],
+          "dominio": {}
+        },
+        "NO_BAIRRO_IES": {
+          "tipo": "Char",
+          "descricao": "Bairro",
+          "linhas": [
+            36
+          ],
+          "dominio": {}
+        },
+        "NU_CEP_IES": {
+          "tipo": "Num",
+          "descricao": "CEP",
+          "linhas": [
+            37
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_TOTAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos",
+          "linhas": [
+            38
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_FUNDAMENTAL_INCOMP_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo feminino com ensino fundamental incompleto",
+          "linhas": [
+            39
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_FUNDAMENTAL_INCOMP_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo masculino com ensino fundamental incompleto",
+          "linhas": [
+            40
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_FUNDAMENTAL_COMP_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo feminino com ensino fundamental completo",
+          "linhas": [
+            41
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_FUNDAMENTAL_COMP_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo masculino com ensino fundamental completo",
+          "linhas": [
+            42
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_MEDIO_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo feminino com ensino médio",
+          "linhas": [
+            43
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_MEDIO_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo masculino com ensino médio",
+          "linhas": [
+            44
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_SUPERIOR_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo feminino com nível superior",
+          "linhas": [
+            45
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_SUPERIOR_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo masculino com nível superior",
+          "linhas": [
+            46
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_ESPECIALIZACAO_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo feminino com especialização",
+          "linhas": [
+            47
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_ESPECIALIZACAO_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo masculino com especialização",
+          "linhas": [
+            48
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_MESTRADO_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo feminino com mestrado",
+          "linhas": [
+            49
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_MESTRADO_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo masculino com mestrado",
+          "linhas": [
+            50
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_DOUTORADO_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo feminino com doutorado",
+          "linhas": [
+            51
+          ],
+          "dominio": {}
+        },
+        "QT_TEC_DOUTORADO_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de funcionários técnico-administrativos do sexo masculino com doutorado",
+          "linhas": [
+            52
+          ],
+          "dominio": {}
+        },
+        "IN_ACESSO_PORTAL_CAPES": {
+          "tipo": "Num",
+          "descricao": "Informa se as bibliotecas da IES têm acesso ao portal Capes de periódicos",
+          "linhas": [
+            53
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "IN_ACESSO_OUTRAS_BASES": {
+          "tipo": "Num",
+          "descricao": "Informa se as bibliotecas da IES têm acesso a outras bases de dados licenciadas ou compradas",
+          "linhas": [
+            54
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "IN_ASSINA_OUTRA_BASE": {
+          "tipo": "Num",
+          "descricao": "Informa se as bibliotecas da IES assinam outras bases de dados licenciadas ou compradas",
+          "linhas": [
+            55
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "IN_REPOSITORIO_INSTITUCIONAL": {
+          "tipo": "Num",
+          "descricao": "Informa se a IES possui base de dados online que reúne de maneira organizada a produção científica da instituição",
+          "linhas": [
+            56
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "IN_BUSCA_INTEGRADA": {
+          "tipo": "Num",
+          "descricao": "Informa se a IES oferece ferramenta eletrônica que possibilita pesquisar simultaneamente diversas fontes de informação e obter resultado em uma única interface",
+          "linhas": [
+            57
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "IN_SERVICO_INTERNET": {
+          "tipo": "Num",
+          "descricao": "Informa se as bibliotecas da IES oferecem serviços pela internet",
+          "linhas": [
+            58
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "IN_PARTICIPA_REDE_SOCIAL": {
+          "tipo": "Num",
+          "descricao": "Informa se as bibliotecas participam de Redes Sociais",
+          "linhas": [
+            59
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "IN_CATALOGO_ONLINE": {
+          "tipo": "Num",
+          "descricao": "Informa se a IES possui ferramenta de recuperação de informação que permite ao usuário consultar, de forma local ou remota, a existência e disponibilidade de itens do acervo das bibliotecas",
+          "linhas": [
+            60
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim"
+          ]
+        },
+        "QT_PERIODICO_ELETRONICO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de títulos de periódicos eletrônicos adquiridos pelas bibliotecas por meio de compra, doação ou permuta ",
+          "linhas": [
+            61
+          ],
+          "dominio": {}
+        },
+        "QT_LIVRO_ELETRONICO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de títulos de livros eletrônicos disponibilizados pelas bibliotecas convertidos ao formato digital ou originalmente produzidos nesse formato para serem lidos em computador ou outros dispositivos",
+          "linhas": [
+            62
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_TOTAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de docentes (em exercício e afastados)",
+          "linhas": [
+            64
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EXE": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de docentes em exercício",
+          "linhas": [
+            65
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_FEMI": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício do sexo feminino",
+          "linhas": [
+            66
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício do sexo masculino",
+          "linhas": [
+            67
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_SEM_GRAD": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício sem curso de graduação",
+          "linhas": [
+            68
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_GRAD": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício com curso de graduação",
+          "linhas": [
+            69
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_ESP": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício com especialização",
+          "linhas": [
+            70
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_MEST": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício com mestrado",
+          "linhas": [
+            71
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_DOUT": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício com doutorado",
+          "linhas": [
+            72
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_INT": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício em tempo integral",
+          "linhas": [
+            73
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_INT_DE": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício em tempo integral com dedicação exclusiva",
+          "linhas": [
+            74
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_INT_SEM_DE": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício em tempo integral sem dedicação exclusiva",
+          "linhas": [
+            75
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_PARC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício em tempo parcial",
+          "linhas": [
+            76
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_HOR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício horista",
+          "linhas": [
+            77
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_0_29": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - até 29 anos",
+          "linhas": [
+            78
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_30_34": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - de 30 a 34 anos",
+          "linhas": [
+            79
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_35_39": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - de 35 a 39 anos",
+          "linhas": [
+            80
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_40_44": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - de 40 a 44 anos",
+          "linhas": [
+            81
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_45_49": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - de 45 a 49 anos",
+          "linhas": [
+            82
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_50_54": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - de 50 a 54 anos",
+          "linhas": [
+            83
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_55_59": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - de 55 a 59 anos",
+          "linhas": [
+            84
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_60_MAIS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - de 60 anos ou mais",
+          "linhas": [
+            85
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_BRANCA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - Cor/Raça branca",
+          "linhas": [
+            86
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_PRETA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - Cor/Raça preta",
+          "linhas": [
+            87
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_PARDA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - Cor/Raça parda",
+          "linhas": [
+            88
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_AMARELA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - Cor/Raça amarela",
+          "linhas": [
+            89
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_INDIGENA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - Cor/Raça indígena",
+          "linhas": [
+            90
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_COR_ND": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - Cor/Raça não dispõe da informação ou não declarada",
+          "linhas": [
+            91
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_BRA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - nacionalidade brasileira ou brasileira - nascido no exterior ou naturalizado",
+          "linhas": [
+            92
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_EST": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - nacionalidade estrangeira",
+          "linhas": [
+            93
+          ],
+          "dominio": {}
+        },
+        "QT_DOC_EX_COM_DEFICIENCIA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de docentes em exercício - com deficiência",
+          "linhas": [
+            94
+          ],
+          "dominio": {}
+        }
+      },
+      "cadastro_cursos": {
+        "NU_ANO_CENSO": {
+          "tipo": "Num",
+          "descricao": "Ano de referência do Censo da Educação Superior",
+          "linhas": [
+            9
+          ],
+          "dominio": {}
+        },
+        "NO_REGIAO": {
+          "tipo": "Char",
+          "descricao": "Nome da região geográfica do local de oferta do curso",
+          "linhas": [
+            11
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Dados de Cursos a distância não calculados para esta dimensão geográfica e/ou Cursos a distância oferecidos por instituição de ensino brasileira no exterior"
+          ]
+        },
+        "CO_REGIAO": {
+          "tipo": "Num",
+          "descricao": "Código da região geográfica do local de oferta do curso",
+          "linhas": [
+            12
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Dados de Cursos a distância não calculados para esta dimensão geográfica e/ou Cursos a distância oferecidos por instituição de ensino brasileira no exterior"
+          ]
+        },
+        "NO_UF": {
+          "tipo": "Char",
+          "descricao": "Nome da Unidade da Federação do local de oferta do curso",
+          "linhas": [
+            13
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Dados de Cursos a distância não calculados para esta dimensão geográfica e/ou Cursos a distância oferecidos por instituição de ensino brasileira no exterior"
+          ]
+        },
+        "SG_UF": {
+          "tipo": "Char",
+          "descricao": "Sigla da Unidade da Federação do local de oferta do curso",
+          "linhas": [
+            14
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Dados de Cursos a distância não calculados para esta dimensão geográfica e/ou Cursos a distância oferecidos por instituição de ensino brasileira no exterior"
+          ]
+        },
+        "CO_UF": {
+          "tipo": "Num",
+          "descricao": "Código do IBGE da Unidade da Federação do local de oferta do curso",
+          "linhas": [
+            15
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Dados de Cursos a distância não calculados para esta dimensão geográfica e/ou Cursos a distância oferecidos por instituição de ensino brasileira no exterior"
+          ]
+        },
+        "NO_MUNICIPIO": {
+          "tipo": "Char",
+          "descricao": "Nome do Município do local de oferta do curso",
+          "linhas": [
+            16
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Dados de Cursos a distância não calculados para esta dimensão geográfica e/ou Cursos a distância oferecidos por instituição de ensino brasileira no exterior"
+          ]
+        },
+        "CO_MUNICIPIO": {
+          "tipo": "Num",
+          "descricao": "Código do IBGE do Município do local de oferta do curso",
+          "linhas": [
+            17
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Dados de Cursos a distância não calculados para esta dimensão geográfica e/ou Cursos a distância oferecidos por instituição de ensino brasileira no exterior"
+          ]
+        },
+        "IN_CAPITAL": {
+          "tipo": "Num",
+          "descricao": "Informa se o local de oferta do curso está localizado na capital da Unidade da Federação",
+          "linhas": [
+            18
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim\n(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "TP_DIMENSAO": {
+          "tipo": "Num",
+          "descricao": "Tipo de dimensão geográfica dos cursos presenciais e a distância ofertados no Brasil e também por instituições brasileiras no exterior",
+          "linhas": [
+            19
+          ],
+          "dominio": {
+            "1": "Cursos presenciais ofertados no Brasil",
+            "2": "Cursos a distância ofertados no Brasil",
+            "3": "Cursos a distância com dimensão de dados somente a nível Brasil",
+            "4": "Cursos a distância ofertados por instituições brasileiras no exterior"
+          },
+          "texto_dominio": [
+            "1. Cursos presenciais ofertados no Brasil\n2. Cursos a distância ofertados no Brasil\n3. Cursos a distância com dimensão de dados somente a nível Brasil\n4. Cursos a distância ofertados por instituições brasileiras no exterior"
+          ]
+        },
+        "TP_ORGANIZACAO_ACADEMICA": {
+          "tipo": "Num",
+          "descricao": "Tipo de Organização Acadêmica da IES",
+          "linhas": [
+            20
+          ],
+          "dominio": {
+            "1": "Universidade",
+            "2": "Centro Universitário",
+            "3": "Faculdade",
+            "4": "Instituto Federal de Educação, Ciência e Tecnologia",
+            "5": "Centro Federal de Educação Tecnológica"
+          },
+          "texto_dominio": [
+            "1. Universidade\n2. Centro Universitário\n3. Faculdade\n4. Instituto Federal de Educação, Ciência e Tecnologia                                \n5. Centro Federal de Educação Tecnológica"
+          ]
+        },
+        "TP_REDE": {
+          "tipo": "Num",
+          "descricao": "Rede de Ensino",
+          "linhas": [
+            21
+          ],
+          "dominio": {
+            "1": "Pública",
+            "2": "Privada"
+          },
+          "texto_dominio": [
+            "1. Pública\n2. Privada"
+          ]
+        },
+        "TP_CATEGORIA_ADMINISTRATIVA": {
+          "tipo": "Num",
+          "descricao": "Tipo de Categoria Administrativa da IES",
+          "linhas": [
+            22
+          ],
+          "dominio": {
+            "1": "Pública Federal",
+            "2": "Pública Estadual",
+            "3": "Pública Municipal",
+            "4": "Privada com fins lucrativos",
+            "5": "Privada sem fins lucrativos",
+            "6": "Privada - Particular em sentido estrito",
+            "7": "Especial",
+            "8": "Privada comunitária",
+            "9": "Privada confessional"
+          },
+          "texto_dominio": [
+            "1. Pública Federal\n2. Pública Estadual\n3. Pública Municipal\n4. Privada com fins lucrativos\n5. Privada sem fins lucrativos\n6. Privada - Particular em sentido estrito\n7. Especial\n8. Privada comunitária\n9. Privada confessional"
+          ]
+        },
+        "IN_COMUNITARIA": {
+          "tipo": "Num",
+          "descricao": "Informa se a instituição privada é comunitária",
+          "linhas": [
+            23
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Informa se a instituição privada é comunitária"
+          ]
+        },
+        "IN_CONFESSIONAL": {
+          "tipo": "Num",
+          "descricao": "Informa se a instituição privada é confessional",
+          "linhas": [
+            24
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Informa se a instituição privada é confessional"
+          ]
+        },
+        "CO_IES": {
+          "tipo": "Num",
+          "descricao": "Código da Instituição ",
+          "linhas": [
+            25
+          ],
+          "dominio": {}
+        },
+        "NO_CURSO": {
+          "tipo": "Char",
+          "descricao": "Nome do Curso",
+          "linhas": [
+            26
+          ],
+          "dominio": {}
+        },
+        "CO_CURSO": {
+          "tipo": "Num",
+          "descricao": "Código do Curso",
+          "linhas": [
+            27
+          ],
+          "dominio": {}
+        },
+        "NO_CINE_ROTULO": {
+          "tipo": "Char",
+          "descricao": "Nome do curso, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            28
+          ],
+          "dominio": {}
+        },
+        "CO_CINE_ROTULO": {
+          "tipo": "Char",
+          "descricao": "Código de identificação do curso, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            29
+          ],
+          "dominio": {}
+        },
+        "CO_CINE_AREA_GERAL": {
+          "tipo": "Char",
+          "descricao": "Código de identificação da área geral, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            30
+          ],
+          "dominio": {}
+        },
+        "NO_CINE_AREA_GERAL": {
+          "tipo": "Char",
+          "descricao": "Nome da área geral, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            31
+          ],
+          "dominio": {}
+        },
+        "CO_CINE_AREA_ESPECIFICA": {
+          "tipo": "Char",
+          "descricao": "Código de identificação da área específica, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            32
+          ],
+          "dominio": {}
+        },
+        "NO_CINE_AREA_ESPECIFICA": {
+          "tipo": "Char",
+          "descricao": "Nome da área específica, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            33
+          ],
+          "dominio": {}
+        },
+        "CO_CINE_AREA_DETALHADA": {
+          "tipo": "Char",
+          "descricao": "Código de identificação da área detalhada, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            34
+          ],
+          "dominio": {}
+        },
+        "NO_CINE_AREA_DETALHADA": {
+          "tipo": "Char",
+          "descricao": "Nome da área detalhada, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+          "linhas": [
+            35
+          ],
+          "dominio": {}
+        },
+        "TP_GRAU_ACADEMICO": {
+          "tipo": "Num",
+          "descricao": "Tipo do grau acadêmico conferido ao aluno pela conclusão dos requisitos exigidos pelo curso",
+          "linhas": [
+            36
+          ],
+          "dominio": {
+            "1": "Bacharelado",
+            "2": "Licenciatura",
+            "3": "Tecnológico",
+            "4": "Bacharelado e Licenciatura"
+          },
+          "texto_dominio": [
+            "1. Bacharelado\n2. Licenciatura\n3. Tecnológico\n4. Bacharelado e Licenciatura\n(.) Não aplicável (cursos com nível acadêmico igual a sequencial de formação específica ou cursos de área básica de Ingresso)"
+          ]
+        },
+        "IN_GRATUITO": {
+          "tipo": "Num",
+          "descricao": "Informa se o curso é gratuito",
+          "linhas": [
+            37
+          ],
+          "dominio": {
+            "0": "Não",
+            "1": "Sim"
+          },
+          "texto_dominio": [
+            "0. Não\n1. Sim\n"
+          ]
+        },
+        "TP_MODALIDADE_ENSINO": {
+          "tipo": "Num",
+          "descricao": "Tipo de modalidade de ensino do curso",
+          "linhas": [
+            38
+          ],
+          "dominio": {
+            "1": "Presencial",
+            "2": "Curso a distância"
+          },
+          "texto_dominio": [
+            "1. Presencial\n2. Curso a distância"
+          ]
+        },
+        "TP_NIVEL_ACADEMICO": {
+          "tipo": "Num",
+          "descricao": "Tipo de nível acadêmico do curso",
+          "linhas": [
+            39
+          ],
+          "dominio": {
+            "1": "Graduação",
+            "2": "Sequencial de Formação Específica"
+          },
+          "texto_dominio": [
+            "1. Graduação\n2. Sequencial de Formação Específica"
+          ]
+        },
+        "QT_CURSO": {
+          "tipo": "Num",
+          "descricao": "Número de cursos",
+          "linhas": [
+            41
+          ],
+          "dominio": {}
+        },
+        "QT_VG_TOTAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de vagas oferecidas",
+          "linhas": [
+            42
+          ],
+          "dominio": {}
+        },
+        "QT_VG_TOTAL_DIURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de vagas oferecidas no turno diurno",
+          "linhas": [
+            43
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_VG_TOTAL_NOTURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de vagas oferecidas no turno noturno",
+          "linhas": [
+            44
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_VG_TOTAL_EAD": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de vagas oferecidas no curso a distância",
+          "linhas": [
+            45
+          ],
+          "dominio": {}
+        },
+        "QT_VG_NOVA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de vagas novas oferecidas",
+          "linhas": [
+            46
+          ],
+          "dominio": {}
+        },
+        "QT_VG_PROC_SELETIVO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de vagas nos processos seletivos",
+          "linhas": [
+            47
+          ],
+          "dominio": {}
+        },
+        "QT_VG_REMANESC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de vagas remanescentes",
+          "linhas": [
+            48
+          ],
+          "dominio": {}
+        },
+        "QT_VG_PROG_ESPECIAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de vagas oferecidas para programas especiais",
+          "linhas": [
+            49
+          ],
+          "dominio": {}
+        },
+        "QT_INSCRITO_TOTAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de inscritos",
+          "linhas": [
+            50
+          ],
+          "dominio": {}
+        },
+        "QT_INSCRITO_TOTAL_DIURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de inscritos no turno diurno",
+          "linhas": [
+            51
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_INSCRITO_TOTAL_NOTURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de inscritos no turno noturno",
+          "linhas": [
+            52
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_INSCRITO_TOTAL_EAD": {
+          "tipo": "Num",
+          "descricao": "Quantidade total de inscritos no curso a distância",
+          "linhas": [
+            53
+          ],
+          "dominio": {}
+        },
+        "QT_INSC_VG_NOVA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de inscritos no processo seletivo de vagas novas ",
+          "linhas": [
+            54
+          ],
+          "dominio": {}
+        },
+        "QT_INSC_PROC_SELETIVO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de inscritos nos processos seletivos",
+          "linhas": [
+            55
+          ],
+          "dominio": {}
+        },
+        "QT_INSC_VG_REMANESC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de inscritos no processo seletivo de vagas remanescentes",
+          "linhas": [
+            56
+          ],
+          "dominio": {}
+        },
+        "QT_INSC_VG_PROG_ESPECIAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de inscritos no processo seletivo de vagas oferecidas para programas especiais",
+          "linhas": [
+            57
+          ],
+          "dominio": {}
+        },
+        "QT_ING": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes",
+          "linhas": [
+            58
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Cálculo de ingressantes: soma do número de alunos com data de ingresso de 01 de janeiro e 01 de julho do ano de referência do censo"
+          ]
+        },
+        "QT_ING_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes do sexo feminino",
+          "linhas": [
+            59
+          ],
+          "dominio": {}
+        },
+        "QT_ING_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes do sexo masculino",
+          "linhas": [
+            60
+          ],
+          "dominio": {}
+        },
+        "QT_ING_DIURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes no turno diurno",
+          "linhas": [
+            61
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_ING_NOTURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes no turno noturno",
+          "linhas": [
+            62
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_ING_VG_NOVA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes em vagas novas",
+          "linhas": [
+            63
+          ],
+          "dominio": {}
+        },
+        "QT_ING_VESTIBULAR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes por vestibular",
+          "linhas": [
+            64
+          ],
+          "dominio": {}
+        },
+        "QT_ING_ENEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes pelo ENEM",
+          "linhas": [
+            65
+          ],
+          "dominio": {}
+        },
+        "QT_ING_AVALIACAO_SERIADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes por meio da avaliação seriada",
+          "linhas": [
+            66
+          ],
+          "dominio": {}
+        },
+        "QT_ING_SELECAO_SIMPLIFICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes por meio de seleção simplificada",
+          "linhas": [
+            67
+          ],
+          "dominio": {}
+        },
+        "QT_ING_EGR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos que se formaram em um curso de Bacharelado Interdisciplinar ou Licenciatura Interdisciplinar e que ingressaram em um curso de terminalidade",
+          "linhas": [
+            68
+          ],
+          "dominio": {}
+        },
+        "QT_ING_OUTRO_TIPO_SELECAO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes em outro tipo de seleção ",
+          "linhas": [
+            69
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PROC_SELETIVO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes nos processos seletivos",
+          "linhas": [
+            70
+          ],
+          "dominio": {}
+        },
+        "QT_ING_VG_REMANESC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes por meio de vagas remanescentes",
+          "linhas": [
+            71
+          ],
+          "dominio": {}
+        },
+        "QT_ING_VG_PROG_ESPECIAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes por meio de vagas para programas especiais",
+          "linhas": [
+            72
+          ],
+          "dominio": {}
+        },
+        "QT_ING_OUTRA_FORMA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes por outras formas de ingresso",
+          "linhas": [
+            73
+          ],
+          "dominio": {}
+        },
+        "QT_ING_0_17": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - Até 17 anos de idade",
+          "linhas": [
+            74
+          ],
+          "dominio": {}
+        },
+        "QT_ING_18_24": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - De 18 a 24 anos de idade",
+          "linhas": [
+            75
+          ],
+          "dominio": {}
+        },
+        "QT_ING_25_29": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - De 25 a 29 anos de idade",
+          "linhas": [
+            76
+          ],
+          "dominio": {}
+        },
+        "QT_ING_30_34": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - De 30 a 34 anos de idade",
+          "linhas": [
+            77
+          ],
+          "dominio": {}
+        },
+        "QT_ING_35_39": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - De 35 a 39 anos de idade",
+          "linhas": [
+            78
+          ],
+          "dominio": {}
+        },
+        "QT_ING_40_49": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - De 40 a 49 anos de idade",
+          "linhas": [
+            79
+          ],
+          "dominio": {}
+        },
+        "QT_ING_50_59": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - De 50 a 59 anos de idade",
+          "linhas": [
+            80
+          ],
+          "dominio": {}
+        },
+        "QT_ING_60_MAIS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - De 60 ou mais anos de idade",
+          "linhas": [
+            81
+          ],
+          "dominio": {}
+        },
+        "QT_ING_BRANCA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - Cor/Raça Branca",
+          "linhas": [
+            82
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PRETA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - Cor/Raça Preta",
+          "linhas": [
+            83
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PARDA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - Cor/Raça Parda",
+          "linhas": [
+            84
+          ],
+          "dominio": {}
+        },
+        "QT_ING_AMARELA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - Cor/Raça Amarela",
+          "linhas": [
+            85
+          ],
+          "dominio": {}
+        },
+        "QT_ING_INDIGENA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - Cor/Raça Indígena",
+          "linhas": [
+            86
+          ],
+          "dominio": {}
+        },
+        "QT_ING_CORND": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - Cor/Raça não dispõe da informação ou não declarada",
+          "linhas": [
+            87
+          ],
+          "dominio": {}
+        },
+        "QT_MAT": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas",
+          "linhas": [
+            88
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "Cálculo de matrículas: soma do número de alunos com situação de vínculo ao curso igual a: Cursando e/ou Formado"
+          ]
+        },
+        "QT_MAT_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas do sexo feminino",
+          "linhas": [
+            89
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas do sexo masculino",
+          "linhas": [
+            90
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_DIURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - turno diurno",
+          "linhas": [
+            91
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_MAT_NOTURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - turno noturno",
+          "linhas": [
+            92
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_MAT_0_17": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - Até 17 anos de idade",
+          "linhas": [
+            93
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_18_24": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - De 18 a 24 anos de idade",
+          "linhas": [
+            94
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_25_29": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - De 25 a 29 anos de idade",
+          "linhas": [
+            95
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_30_34": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - De 30 a 34 anos de idade",
+          "linhas": [
+            96
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_35_39": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - De 35 a 39 anos de idade",
+          "linhas": [
+            97
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_40_49": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - De 40 a 49 anos de idade",
+          "linhas": [
+            98
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_50_59": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - De 50 a 59 anos de idade",
+          "linhas": [
+            99
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_60_MAIS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - De 60 ou mais anos de idade",
+          "linhas": [
+            100
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_BRANCA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - Cor/Raça Branca",
+          "linhas": [
+            101
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PRETA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - Cor/Raça Preta",
+          "linhas": [
+            102
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PARDA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - Cor/Raça Parda",
+          "linhas": [
+            103
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_AMARELA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - Cor/Raça Amarela",
+          "linhas": [
+            104
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_INDIGENA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - Cor/Raça Indígena",
+          "linhas": [
+            105
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_CORND": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - Cor/Raça não dispõe da informação ou não declarada",
+          "linhas": [
+            106
+          ],
+          "dominio": {}
+        },
+        "QT_CONC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes",
+          "linhas": [
+            107
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_FEM": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes do sexo feminino",
+          "linhas": [
+            108
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_MASC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes do sexo masculino",
+          "linhas": [
+            109
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_DIURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - turno diurno",
+          "linhas": [
+            110
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_CONC_NOTURNO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - turno noturno",
+          "linhas": [
+            111
+          ],
+          "dominio": {},
+          "texto_dominio": [
+            "(.) Não aplicável (Curso a distância)"
+          ]
+        },
+        "QT_CONC_0_17": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - Até 17 anos de idade",
+          "linhas": [
+            112
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_18_24": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - De 18 a 24 anos de idade",
+          "linhas": [
+            113
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_25_29": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - De 25 a 29 anos de idade",
+          "linhas": [
+            114
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_30_34": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - De 30 a 34 anos de idade",
+          "linhas": [
+            115
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_35_39": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - De 35 a 39 anos de idade",
+          "linhas": [
+            116
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_40_49": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - De 40 a 49 anos de idade",
+          "linhas": [
+            117
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_50_59": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - De 50 a 59 anos de idade",
+          "linhas": [
+            118
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_60_MAIS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - De 60 ou mais anos de idade",
+          "linhas": [
+            119
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_BRANCA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - Cor/Raça Branca",
+          "linhas": [
+            120
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PRETA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - Cor/Raça Preta",
+          "linhas": [
+            121
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PARDA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - Cor/Raça Parda",
+          "linhas": [
+            122
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_AMARELA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - Cor/Raça Amarela",
+          "linhas": [
+            123
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_INDIGENA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - Cor/Raça Indígena",
+          "linhas": [
+            124
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_CORND": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - Cor/Raça não dispõe da informação ou não declarada",
+          "linhas": [
+            125
+          ],
+          "dominio": {}
+        },
+        "QT_ING_NACBRAS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - nacionalidade brasileira ou brasileira - nascido no exterior ou naturalizado",
+          "linhas": [
+            126
+          ],
+          "dominio": {}
+        },
+        "QT_ING_NACESTRANG": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - nacionalidade estrangeira",
+          "linhas": [
+            127
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_NACBRAS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - nacionalidade brasileira ou brasileira - nascido no exterior ou naturalizado",
+          "linhas": [
+            128
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_NACESTRANG": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - nacionalidade estrangeira",
+          "linhas": [
+            129
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_NACBRAS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - nacionalidade brasileira ou brasileira - nascido no exterior ou naturalizado",
+          "linhas": [
+            130
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_NACESTRANG": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - nacionalidade estrangeira",
+          "linhas": [
+            131
+          ],
+          "dominio": {}
+        },
+        "QT_ALUNO_DEFICIENTE": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos com deficiência, transtorno global do desenvolvimento ou altas habilidades/superdotação",
+          "linhas": [
+            132
+          ],
+          "dominio": {}
+        },
+        "QT_ING_DEFICIENTE": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos com deficiência, transtorno global do desenvolvimento ou altas habilidades/superdotação",
+          "linhas": [
+            133
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_DEFICIENTE": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos com deficiência, transtorno global do desenvolvimento ou altas habilidades/superdotação",
+          "linhas": [
+            134
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_DEFICIENTE": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos com deficiência, transtorno global do desenvolvimento ou altas habilidades/superdotação",
+          "linhas": [
+            135
+          ],
+          "dominio": {}
+        },
+        "QT_ING_FINANC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil ",
+          "linhas": [
+            136
+          ],
+          "dominio": {}
+        },
+        "QT_ING_FINANC_REEMB": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil reembolsável",
+          "linhas": [
+            137
+          ],
+          "dominio": {}
+        },
+        "QT_ING_FIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil reembolsável  - FIES",
+          "linhas": [
+            138
+          ],
+          "dominio": {}
+        },
+        "QT_ING_RPFIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil reembolsável - administrado pela instituição",
+          "linhas": [
+            139
+          ],
+          "dominio": {}
+        },
+        "QT_ING_FINANC_REEMB_OUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil reembolsável - pelo governo estadual, municipal, entidades externas à IES e outras entidades",
+          "linhas": [
+            140
+          ],
+          "dominio": {}
+        },
+        "QT_ING_FINANC_NREEMB": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil não reembolsável",
+          "linhas": [
+            141
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PROUNII": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil não reembolsável  - PROUNI Integral",
+          "linhas": [
+            142
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PROUNIP": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil não reembolsável  - PROUNI Parcial",
+          "linhas": [
+            143
+          ],
+          "dominio": {}
+        },
+        "QT_ING_NRPFIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil não reembolsável - administrado pela instituição",
+          "linhas": [
+            144
+          ],
+          "dominio": {}
+        },
+        "QT_ING_FINANC_NREEMB_OUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que utilizam financiamento estudantil não reembolsável - pelo governo estadual, municipal, entidades externas à IES e outras entidades",
+          "linhas": [
+            145
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_FINANC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil ",
+          "linhas": [
+            146
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_FINANC_REEMB": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil  reembolsável",
+          "linhas": [
+            147
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_FIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil reembolsável  - FIES",
+          "linhas": [
+            148
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_RPFIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil reembolsável - administrado pela instituição",
+          "linhas": [
+            149
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_FINANC_REEMB_OUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil reembolsável - pelo governo estadual, municipal, entidades externas à IES e outras entidades",
+          "linhas": [
+            150
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_FINANC_NREEMB": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil não reembolsável",
+          "linhas": [
+            151
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PROUNII": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil não reembolsável  - PROUNI Integral",
+          "linhas": [
+            152
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PROUNIP": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil não reembolsável  - PROUNI Parcial",
+          "linhas": [
+            153
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_NRPFIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil não reembolsável - administrado pela instituição",
+          "linhas": [
+            154
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_FINANC_NREEMB_OUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que utilizam financiamento estudantil não reembolsável - pelo governo estadual, municipal, entidades externas à IES e outras entidades",
+          "linhas": [
+            155
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_FINANC": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil ",
+          "linhas": [
+            156
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_FINANC_REEMB": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil reembolsável",
+          "linhas": [
+            157
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_FIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil reembolsável  - FIES",
+          "linhas": [
+            158
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_RPFIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil reembolsável - administrado pela instituição",
+          "linhas": [
+            159
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_FINANC_REEMB_OUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil reembolsável - pelo governo estadual, municipal, entidades externas à IES e outras entidades",
+          "linhas": [
+            160
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_FINANC_NREEMB": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil não reembolsável",
+          "linhas": [
+            161
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PROUNII": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil não reembolsável  - PROUNI Integral",
+          "linhas": [
+            162
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PROUNIP": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil não reembolsável  - PROUNI Parcial",
+          "linhas": [
+            163
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_NRPFIES": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil não reembolsável - administrado pela instituição",
+          "linhas": [
+            164
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_FINANC_NREEMB_OUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que utilizam financiamento estudantil não reembolsável - pelo governo estadual, municipal, entidades externas à IES e outras entidades",
+          "linhas": [
+            165
+          ],
+          "dominio": {}
+        },
+        "QT_ING_RESERVA_VAGA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que participam do programa de reserva de vagas",
+          "linhas": [
+            166
+          ],
+          "dominio": {}
+        },
+        "QT_ING_RVREDEPUBLICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que participam do programa de reserva de vagas - escola pública",
+          "linhas": [
+            167
+          ],
+          "dominio": {}
+        },
+        "QT_ING_RVETNICO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que participam do programa de reserva de vagas - cunho étnico",
+          "linhas": [
+            168
+          ],
+          "dominio": {}
+        },
+        "QT_ING_RVPDEF": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que participam do programa de reserva de vagas - pessoas com deficiência",
+          "linhas": [
+            169
+          ],
+          "dominio": {}
+        },
+        "QT_ING_RVSOCIAL_RF": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que participam do programa de reserva de vagas - cunho social/renda familiar",
+          "linhas": [
+            170
+          ],
+          "dominio": {}
+        },
+        "QT_ING_RVOUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes - alunos que participam do programa de reserva de vagas - outros tipos",
+          "linhas": [
+            171
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_RESERVA_VAGA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que participam do programa de reserva de vagas",
+          "linhas": [
+            172
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_RVREDEPUBLICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que participam do programa de reserva de vagas - escola pública",
+          "linhas": [
+            173
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_RVETNICO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que participam do programa de reserva de vagas - cunho étnico",
+          "linhas": [
+            174
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_RVPDEF": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que participam do programa de reserva de vagas - pessoas com deficiência",
+          "linhas": [
+            175
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_RVSOCIAL_RF": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que participam do programa de reserva de vagas - cunho social/renda familiar",
+          "linhas": [
+            176
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_RVOUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas - alunos que participam do programa de reserva de vagas - outros tipos",
+          "linhas": [
+            177
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_RESERVA_VAGA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que participam do programa de reserva de vagas",
+          "linhas": [
+            178
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_RVREDEPUBLICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que participam do programa de reserva de vagas - escola pública",
+          "linhas": [
+            179
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_RVETNICO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que participam do programa de reserva de vagas - cunho étnico",
+          "linhas": [
+            180
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_RVPDEF": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que participam do programa de reserva de vagas - pessoas com deficiência",
+          "linhas": [
+            181
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_RVSOCIAL_RF": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que participam do programa de reserva de vagas - cunho social/renda familiar",
+          "linhas": [
+            182
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_RVOUTROS": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes - alunos que participam do programa de reserva de vagas - outros tipos",
+          "linhas": [
+            183
+          ],
+          "dominio": {}
+        },
+        "QT_SIT_TRANCADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos com situação de vínculo no curso - matrícula trancada",
+          "linhas": [
+            184
+          ],
+          "dominio": {}
+        },
+        "QT_SIT_DESVINCULADO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos com situação de vínculo no curso - aluno desvinculado do curso",
+          "linhas": [
+            185
+          ],
+          "dominio": {}
+        },
+        "QT_SIT_TRANSFERIDO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos com situação de vínculo no curso - aluno transferido para outro curso da mesma IES",
+          "linhas": [
+            186
+          ],
+          "dominio": {}
+        },
+        "QT_SIT_FALECIDO": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos com situação de vínculo no curso - aluno falecido",
+          "linhas": [
+            187
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PROCESCPUBLICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes que terminaram o ensino médio em escolas públicas ",
+          "linhas": [
+            188
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PROCESCPRIVADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes que terminaram o ensino médio em escolas privadas",
+          "linhas": [
+            189
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PROCNAOINFORMADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes que não informaram o tipo de escola que terminaram o ensino médio",
+          "linhas": [
+            190
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PROCESCPUBLICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas de alunos que terminaram o ensino médio em escolas públicas ",
+          "linhas": [
+            191
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PROCESCPRIVADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas de alunos que terminaram o ensino médio em escolas privadas",
+          "linhas": [
+            192
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PROCNAOINFORMADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas de alunos que não informaram o tipo de escola que terminaram o ensino médio",
+          "linhas": [
+            193
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PROCESCPUBLICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes que terminaram o ensino médio em escolas públicas ",
+          "linhas": [
+            194
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PROCESCPRIVADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes que terminaram o ensino médio em escolas privadas",
+          "linhas": [
+            195
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PROCNAOINFORMADA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes que não informaram o tipo de escola que terminaram o ensino médio",
+          "linhas": [
+            196
+          ],
+          "dominio": {}
+        },
+        "QT_PARFOR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos que participam do programa especial para a formação de professores em exercício na rede pública de educação básica (PARFOR)",
+          "linhas": [
+            197
+          ],
+          "dominio": {}
+        },
+        "QT_ING_PARFOR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes que participam do programa especial para a formação de professores em exercício na rede pública de educação básica (PARFOR)",
+          "linhas": [
+            198
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_PARFOR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas de alunos que participam do programa especial para a formação de professores em exercício na rede pública de educação básica (PARFOR)",
+          "linhas": [
+            199
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_PARFOR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes que participam do programa especial para a formação de professores em exercício na rede pública de educação básica (PARFOR)",
+          "linhas": [
+            200
+          ],
+          "dominio": {}
+        },
+        "QT_APOIO_SOCIAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos que recebem algum tipo de apoio social",
+          "linhas": [
+            201
+          ],
+          "dominio": {}
+        },
+        "QT_ING_APOIO_SOCIAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes que recebem algum tipo de apoio social",
+          "linhas": [
+            202
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_APOIO_SOCIAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas de alunos que recebem algum tipo de apoio social",
+          "linhas": [
+            203
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_APOIO_SOCIAL": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes que recebem algum tipo de apoio social",
+          "linhas": [
+            204
+          ],
+          "dominio": {}
+        },
+        "QT_ATIV_EXTRACURRICULAR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos que participam de algum tipo de atividade extracurricular",
+          "linhas": [
+            205
+          ],
+          "dominio": {}
+        },
+        "QT_ING_ATIV_EXTRACURRICULAR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes que participam de algum tipo de atividade extracurricular",
+          "linhas": [
+            206
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_ATIV_EXTRACURRICULAR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de matrículas de alunos que participam de algum tipo de atividade extracurricular",
+          "linhas": [
+            207
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_ATIV_EXTRACURRICULAR": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes que participam de algum tipo de atividade extracurricular",
+          "linhas": [
+            208
+          ],
+          "dominio": {}
+        },
+        "QT_MOB_ACADEMICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos que se vincularam temporariamente a outra instituição, sendo ela nacional ou internacional",
+          "linhas": [
+            209
+          ],
+          "dominio": {}
+        },
+        "QT_ING_MOB_ACADEMICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de ingressantes que se vincularam temporariamente a outra instituição, sendo ela nacional ou internacional",
+          "linhas": [
+            210
+          ],
+          "dominio": {}
+        },
+        "QT_MAT_MOB_ACADEMICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de alunos regularmente matriculados que se vincularam temporariamente a outra instituição, sendo ela nacional ou internacional",
+          "linhas": [
+            211
+          ],
+          "dominio": {}
+        },
+        "QT_CONC_MOB_ACADEMICA": {
+          "tipo": "Num",
+          "descricao": "Quantidade de concluintes que se vincularam temporariamente a outra instituição, sendo ela nacional ou internacional",
+          "linhas": [
+            212
+          ],
+          "dominio": {}
+        }
+      }
+    }
+  }
+}

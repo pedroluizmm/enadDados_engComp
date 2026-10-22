@@ -1,0 +1,180 @@
+{
+  "figura": "itens_ce_2023",
+  "eixos_x": [
+    [
+      -30,
+      30
+    ]
+  ],
+  "legenda_fora_dados": true,
+  "fonte_unica": true,
+  "tipo": "diferencas_pp_ordenadas",
+  "n_questoes": 24,
+  "denominadores": {
+    "UNIFOR": 25,
+    "demais_privadas": 1178
+  },
+  "excluidas": [
+    17,
+    18,
+    19,
+    25,
+    34
+  ],
+  "linhas": [
+    {
+      "questao_caderno": 23,
+      "percentual_unifor": 60.0,
+      "percentual_demais": 34.21052631578947,
+      "diferenca_pp": 25.789473684210527
+    },
+    {
+      "questao_caderno": 30,
+      "percentual_unifor": 80.0,
+      "percentual_demais": 56.7062818336163,
+      "diferenca_pp": 23.293718166383698
+    },
+    {
+      "questao_caderno": 29,
+      "percentual_unifor": 60.0,
+      "percentual_demais": 42.95415959252971,
+      "diferenca_pp": 17.045840407470287
+    },
+    {
+      "questao_caderno": 24,
+      "percentual_unifor": 56.0,
+      "percentual_demais": 39.81324278438031,
+      "diferenca_pp": 16.186757215619693
+    },
+    {
+      "questao_caderno": 27,
+      "percentual_unifor": 48.0,
+      "percentual_demais": 33.531409168081495,
+      "diferenca_pp": 14.468590831918505
+    },
+    {
+      "questao_caderno": 13,
+      "percentual_unifor": 36.0,
+      "percentual_demais": 22.07130730050934,
+      "diferenca_pp": 13.92869269949066
+    },
+    {
+      "questao_caderno": 21,
+      "percentual_unifor": 52.0,
+      "percentual_demais": 42.52971137521222,
+      "diferenca_pp": 9.470288624787777
+    },
+    {
+      "questao_caderno": 10,
+      "percentual_unifor": 40.0,
+      "percentual_demais": 30.899830220713078,
+      "diferenca_pp": 9.100169779286922
+    },
+    {
+      "questao_caderno": 20,
+      "percentual_unifor": 48.0,
+      "percentual_demais": 42.95415959252971,
+      "diferenca_pp": 5.045840407470287
+    },
+    {
+      "questao_caderno": 31,
+      "percentual_unifor": 28.0,
+      "percentual_demais": 23.514431239388795,
+      "diferenca_pp": 4.485568760611205
+    },
+    {
+      "questao_caderno": 35,
+      "percentual_unifor": 44.0,
+      "percentual_demais": 39.81324278438031,
+      "diferenca_pp": 4.186757215619693
+    },
+    {
+      "questao_caderno": 12,
+      "percentual_unifor": 20.0,
+      "percentual_demais": 16.97792869269949,
+      "diferenca_pp": 3.0220713073005108
+    },
+    {
+      "questao_caderno": 26,
+      "percentual_unifor": 68.0,
+      "percentual_demais": 65.11035653650255,
+      "diferenca_pp": 2.8896434634974497
+    },
+    {
+      "questao_caderno": 36,
+      "percentual_unifor": 52.0,
+      "percentual_demais": 50.0,
+      "diferenca_pp": 2.0
+    },
+    {
+      "questao_caderno": 38,
+      "percentual_unifor": 64.0,
+      "percentual_demais": 62.478777589134125,
+      "diferenca_pp": 1.5212224108658745
+    },
+    {
+      "questao_caderno": 32,
+      "percentual_unifor": 60.0,
+      "percentual_demais": 58.74363327674024,
+      "diferenca_pp": 1.2563667232597595
+    },
+    {
+      "questao_caderno": 22,
+      "percentual_unifor": 40.0,
+      "percentual_demais": 40.57724957555178,
+      "diferenca_pp": -0.5772495755517824
+    },
+    {
+      "questao_caderno": 15,
+      "percentual_unifor": 28.0,
+      "percentual_demais": 29.032258064516128,
+      "diferenca_pp": -1.0322580645161281
+    },
+    {
+      "questao_caderno": 16,
+      "percentual_unifor": 4.0,
+      "percentual_demais": 5.942275042444821,
+      "diferenca_pp": -1.9422750424448214
+    },
+    {
+      "questao_caderno": 33,
+      "percentual_unifor": 36.0,
+      "percentual_demais": 38.70967741935484,
+      "diferenca_pp": -2.70967741935484
+    },
+    {
+      "questao_caderno": 11,
+      "percentual_unifor": 24.0,
+      "percentual_demais": 30.64516129032258,
+      "diferenca_pp": -6.64516129032258
+    },
+    {
+      "questao_caderno": 37,
+      "percentual_unifor": 20.0,
+      "percentual_demais": 26.7402376910017,
+      "diferenca_pp": -6.740237691001699
+    },
+    {
+      "questao_caderno": 14,
+      "percentual_unifor": 8.0,
+      "percentual_demais": 15.70458404074703,
+      "diferenca_pp": -7.704584040747029
+    },
+    {
+      "questao_caderno": 28,
+      "percentual_unifor": 32.0,
+      "percentual_demais": 47.62308998302207,
+      "diferenca_pp": -15.62308998302207
+    }
+  ],
+  "novos_testes_estatisticos": false,
+  "status": "aprovado",
+  "conferencias_numericas": 72,
+  "sha256_tabela_original": "b17168a5757b6674238fba8fd8786b0c18ff49611deaf74f3a695135df02d0f9",
+  "sha256_figuras": {
+    "itens_ce_2023.png": "57d225d70c8f579e924887b3eaa85fec528340338fdcd07a091f1b6857c9e51a",
+    "itens_ce_2023.pdf": "0409cdcaa212da0d1cdf087c00e7c8a0e0b68aa0278196c77c2b8988216867c7"
+  },
+  "compilado": false,
+  "paginas_pdf": null
+}

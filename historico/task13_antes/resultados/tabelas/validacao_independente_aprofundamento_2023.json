@@ -1,0 +1,16 @@
+{
+  "status": "aprovado",
+  "origem": "releitura ZIP oficial via csv, Counter e statistics",
+  "verificacoes": {
+    "denominadores": 6,
+    "estatisticas": 210,
+    "correlacoes_individuais": 5,
+    "itens": 925,
+    "proporcoes_marginais": 12390,
+    "indicadores": 50,
+    "ecologicas": 10
+  },
+  "total_verificacoes": 13596,
+  "hashes_entradas_saidas_brutos_conferidos": true,
+  "sem_pareamento_individual_entre_arquivos": true
+}

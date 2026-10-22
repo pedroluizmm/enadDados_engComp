@@ -1,0 +1,145 @@
+{
+  "filtros": {
+    "NU_ANO": 2023,
+    "CO_GRUPO": 6411,
+    "CO_CATEGAD": [
+      4,
+      5,
+      8
+    ],
+    "CO_MODALIDADE": 1
+  },
+  "instituicoes": 70,
+  "cursos": 79,
+  "registros_arq1": 1418,
+  "registros_arq3": 1418,
+  "notas_validas": 1203,
+  "situacoes_resultado": {
+    "presente_nota_publicada": 1203,
+    "ausente": 208,
+    "suprimido_sigilo": 6,
+    "outro_resultado_nao_valido": 1
+  },
+  "presenca_valida_sem_notas": 6,
+  "unifor": {
+    "CO_IES": 555,
+    "CO_CURSO": 107689,
+    "arq1": 30,
+    "arq3": 30,
+    "notas_validas": 25,
+    "TP_PRES": {
+      "555": 25,
+      "222": 5
+    }
+  },
+  "censo": {
+    "VINCULO_CURSO_CENSO": 1,
+    "VINCULO_IES_CENSO": 0
+  },
+  "divergencias_censo": {
+    "DIVERGENCIA_CATEGORIA": {
+      "quantidade": 0,
+      "nao_avaliaveis": 1
+    },
+    "DIVERGENCIA_INDICADORES": {
+      "quantidade": 0,
+      "nao_avaliaveis": 0
+    },
+    "RESSALVA_CAT8_COMUNITARIA_ZERO": {
+      "quantidade": 1,
+      "nao_avaliaveis": 0
+    },
+    "DIVERGENCIA_MODALIDADE": {
+      "quantidade": 0,
+      "nao_avaliaveis": 1
+    },
+    "DIVERGENCIA_MUNICIPIO": {
+      "quantidade": 0,
+      "nao_avaliaveis": 1
+    },
+    "CURSO_CENSO_OUTRA_IES": {
+      "quantidade": 0,
+      "nao_avaliaveis": 0
+    }
+  },
+  "ausencias_notas": {
+    "NT_GER": 215,
+    "NT_FG": 215,
+    "NT_CE": 215
+  },
+  "distribuicao_presenca": {
+    "555": 1209,
+    "222": 207,
+    "444": 1,
+    "334": 1
+  },
+  "cursos_sem_censo": [
+    {
+      "CO_IES": "137",
+      "CO_CURSO": "1125254",
+      "NO_IES": "CENTRO UNIVERSITÁRIO SAGRADO CORAÇÃO"
+    }
+  ],
+  "leitura": {
+    "microdados2023_arq1.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    },
+    "microdados2023_arq3.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    },
+    "CURSOS_2023.CSV": {
+      "lidos": 671610,
+      "selecionados": 78
+    },
+    "IES_2023.CSV": {
+      "lidos": 2580,
+      "selecionados": 70
+    }
+  },
+  "verificacoes_csv": {
+    "cadastro_comparaveis.csv": {
+      "linhas": 79,
+      "sha256": "a1f383fb56e8a340db023d6cd5961a24b8ecba4357e0f368cd47e8eb56480edf",
+      "releitura_integral": true,
+      "repeticoes_identicas_preservadas": 0
+    },
+    "enade_arq1_filtrado.csv": {
+      "linhas": 1418,
+      "sha256": "e9458f20d4f62ecc788bfadc69b25103cb0139a00103e0b3137944ab84f6177f",
+      "releitura_integral": true,
+      "repeticoes_identicas_preservadas": 1339
+    },
+    "enade_arq3_desempenho.csv": {
+      "linhas": 1418,
+      "sha256": "eb4587d3af8d97fb285d8a3a18c47c8f96196f06b13682bde4136bf3b1a873e8",
+      "releitura_integral": true,
+      "repeticoes_identicas_preservadas": 156
+    }
+  },
+  "zip_antes": {
+    "dados\\brutos\\enade_2023\\microdados_enade_2023.zip": {
+      "bytes": 44157672,
+      "sha256": "7565eb919b7403e2e95c61bd26ff9d3a90311a6897087ec5c237d53693745853"
+    },
+    "dados\\brutos\\censo_2023\\microdados_censo_da_educacao_superior_2023.zip": {
+      "bytes": 38411202,
+      "sha256": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5"
+    }
+  },
+  "zip_depois": {
+    "dados\\brutos\\enade_2023\\microdados_enade_2023.zip": {
+      "bytes": 44157672,
+      "sha256": "7565eb919b7403e2e95c61bd26ff9d3a90311a6897087ec5c237d53693745853"
+    },
+    "dados\\brutos\\censo_2023\\microdados_censo_da_educacao_superior_2023.zip": {
+      "bytes": 38411202,
+      "sha256": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5"
+    }
+  },
+  "zip_intactos": true,
+  "referencia_unifor_30_25_confirmada": true
+}
+FASE 1 APROVADA: filtros, chaves, notas, sigilo, UNIFOR, CSVs e ZIPs.
+Aprofundamento aprovado: 1203 pares; 9 FG + 24 CE válidos; 5 marginais socioeconômicas; 14 arquivos de figuras.

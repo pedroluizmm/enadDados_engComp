@@ -1,0 +1,7 @@
+Relatório ENADE 2023 — versão TASK14-3f7e5e39a301
+Arquivo principal: main.tex na raiz. Compilador: pdfLaTeX.
+TASK 13 confirmada: FG discursiva com 32,0% em branco (8/25), notas condicionais e indicadores socioeconômicos.
+Confira MANIFESTO_VERSAO.json para identificar a versão e os hashes.
+Os pacotes overleaf.zip e prism.zip locais são cópias idênticas desta versão.
+Importação manual pelo usuário; nenhum serviço externo foi utilizado pelo empacotador.
+Sem compilação local: confirmar máximo de dez páginas, incluindo capa e referências, e revisar o PDF.

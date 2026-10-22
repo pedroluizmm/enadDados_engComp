@@ -1,0 +1,26 @@
+{
+  "status": "aprovado",
+  "fluxo": "READ → VERIFY → APPLY → VERIFY",
+  "versao": "TASK13-ab7dd05d5a58",
+  "zip_sha256": "c9dcff511730023afe39bbe3b896411d04d7b67c4d4528d66c168126df7d83d9",
+  "arquivos_internos_sha256": {
+    "LEIA-ME.txt": "33104fe3e76029108870cf80603fcd410f5217a588f4af13663534fccb24463d",
+    "MANIFESTO_VERSAO.json": "56ea0af4eb887cff0488cc2d30dfcf3c292570c7372426570580a90c0e80f2a8",
+    "graficos/comparacao_componentes_2023.pdf": "48fec7778d653831c1d5d66e547ccc330414a64019bb966e8d9f48a7aa90f7b6",
+    "graficos/fg_discursiva_resposta_2023.pdf": "08735278c92fc4f2739ecf68ae8b3ecb64513d2480ae86f5db00f798fecb9659",
+    "graficos/itens_ce_2023.pdf": "84a3a5f56328606f7e8570a49095450b85dadeb56aff461f6ee6ac8ad6634140",
+    "graficos/itens_fg_2023.pdf": "e489239219503a4d6924008b10053f394ed0faeeb800abe0ee6a0a62b0dd8deb",
+    "graficos/perfil_socioeconomico_2023.pdf": "6a57b57df1665ccbdcc600be21820cf7cc3d8c4a347aea2625566216f080c554",
+    "graficos/relacao_fg_ce_2023.pdf": "eca213ddc2e10b63cdebbf9c8b3398d938307aeb9ca7e6ff347a5c1b4a54266a",
+    "main.tex": "4aa8b4b4f8ed3f7b87ce4a0dd2ea5a375c568fa754a204f82098b6288f138092",
+    "tabelas/indicadores.tex": "0c7e02ca4f2ef2b6b2ccd0153599d0fbdf07a94dc9211b909ef39d8f2fb5e5cc"
+  },
+  "arquivos_internos_conferidos": 10,
+  "entradas_protegidas_intactas": 36,
+  "microdados_e_csvs_nao_alterados": true,
+  "fontes_e_validacao_relatorio_nao_alteradas": true,
+  "task13_e_32_porcento_confirmados": true,
+  "analises_estatisticas_executadas": false,
+  "testes_empacotamento_aprovados": 4,
+  "diagnostico": "Overleaf local já era TASK 13; ZIP de nome Prism estava antigo. Estado efetivamente importado no serviço não inspecionado."
+}

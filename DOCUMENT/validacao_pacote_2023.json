@@ -1,0 +1,72 @@
+{
+  "arquivo": "DOCUMENT\\enade_2023_overleaf.zip",
+  "versao": "TASK14-3f7e5e39a301",
+  "sha256": "23e65a785271247092311f770dabed1212f209585882e92ea3c7fbffe95a8f68",
+  "copias_identicas": [
+    "DOCUMENT\\enade_2023_prism.zip",
+    "DOCUMENT\\enade_2023_TASK14-3f7e5e39a301.zip"
+  ],
+  "sha256_main_local_modelo": "1071774f5d28b5732eb876ff8185d91ac0669e69b1faedc4a247c78cd365c2d4",
+  "sha256_main_zip": "0bf141b2aa06c0257482779f848cac7b706394ea84970293d4b3d604f7444cd4",
+  "main_igual_apos_ajuste_exclusivo_de_caminhos": true,
+  "dependencias_conferidas": 7,
+  "arquivos_internos_conferidos": 10,
+  "sha256_internos_vs_locais": {
+    "LEIA-ME.txt": {
+      "sha256_local": "ef3d58dd7bee9aead1d38d5c896d9539cb64d761e8350ca417612a99873f67c5",
+      "sha256_zip": "ef3d58dd7bee9aead1d38d5c896d9539cb64d761e8350ca417612a99873f67c5",
+      "iguais": true
+    },
+    "MANIFESTO_VERSAO.json": {
+      "sha256_local": "fafb734e3623ec8dbb4e4fb377b3a8b160706a91a27e1e5f187f0268f557e069",
+      "sha256_zip": "fafb734e3623ec8dbb4e4fb377b3a8b160706a91a27e1e5f187f0268f557e069",
+      "iguais": true
+    },
+    "graficos/comparacao_componentes_2023.pdf": {
+      "sha256_local": "48fec7778d653831c1d5d66e547ccc330414a64019bb966e8d9f48a7aa90f7b6",
+      "sha256_zip": "48fec7778d653831c1d5d66e547ccc330414a64019bb966e8d9f48a7aa90f7b6",
+      "iguais": true
+    },
+    "graficos/fg_discursiva_resposta_2023.pdf": {
+      "sha256_local": "08735278c92fc4f2739ecf68ae8b3ecb64513d2480ae86f5db00f798fecb9659",
+      "sha256_zip": "08735278c92fc4f2739ecf68ae8b3ecb64513d2480ae86f5db00f798fecb9659",
+      "iguais": true
+    },
+    "graficos/itens_ce_2023.pdf": {
+      "sha256_local": "0409cdcaa212da0d1cdf087c00e7c8a0e0b68aa0278196c77c2b8988216867c7",
+      "sha256_zip": "0409cdcaa212da0d1cdf087c00e7c8a0e0b68aa0278196c77c2b8988216867c7",
+      "iguais": true
+    },
+    "graficos/itens_fg_2023.pdf": {
+      "sha256_local": "e489239219503a4d6924008b10053f394ed0faeeb800abe0ee6a0a62b0dd8deb",
+      "sha256_zip": "e489239219503a4d6924008b10053f394ed0faeeb800abe0ee6a0a62b0dd8deb",
+      "iguais": true
+    },
+    "graficos/perfil_socioeconomico_2023.pdf": {
+      "sha256_local": "6a57b57df1665ccbdcc600be21820cf7cc3d8c4a347aea2625566216f080c554",
+      "sha256_zip": "6a57b57df1665ccbdcc600be21820cf7cc3d8c4a347aea2625566216f080c554",
+      "iguais": true
+    },
+    "graficos/relacao_fg_ce_2023.pdf": {
+      "sha256_local": "eca213ddc2e10b63cdebbf9c8b3398d938307aeb9ca7e6ff347a5c1b4a54266a",
+      "sha256_zip": "eca213ddc2e10b63cdebbf9c8b3398d938307aeb9ca7e6ff347a5c1b4a54266a",
+      "iguais": true
+    },
+    "main.tex": {
+      "sha256_local": "0bf141b2aa06c0257482779f848cac7b706394ea84970293d4b3d604f7444cd4",
+      "sha256_zip": "0bf141b2aa06c0257482779f848cac7b706394ea84970293d4b3d604f7444cd4",
+      "iguais": true
+    },
+    "tabelas/indicadores.tex": {
+      "sha256_local": "0c7e02ca4f2ef2b6b2ccd0153599d0fbdf07a94dc9211b909ef39d8f2fb5e5cc",
+      "sha256_zip": "0c7e02ca4f2ef2b6b2ccd0153599d0fbdf07a94dc9211b909ef39d8f2fb5e5cc",
+      "iguais": true
+    }
+  },
+  "autocontido": true,
+  "task13_confirmada": true,
+  "task14_confirmada": true,
+  "analises_executadas": false,
+  "compilado": false,
+  "paginas_pdf": null
+}

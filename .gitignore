@@ -1,0 +1,43 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Microdados e arquivos de dados brutos / pesados
+dados/brutos/*
+!dados/brutos/.gitkeep
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache e arquivos temporários
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+

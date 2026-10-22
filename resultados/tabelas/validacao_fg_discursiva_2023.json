@@ -1,0 +1,12 @@
+{
+  "status": "aprovado",
+  "conferencias_independentes": 50,
+  "definicoes": {
+    "brancos": "TP_SFG_D1=333",
+    "sem_brancos": "TP_SFG_D1!=333",
+    "respostas_validas": "TP_SFG_D1=555; exclui também 335 e 336"
+  },
+  "fonte": "Releitura do arq3 oficial, csv/statistics; sem vínculos entre arquivos",
+  "ressalva_336": "Há três notas publicadas positivas em código 336 (9, 11 e 14). Valores preservados, sem recodificação.",
+  "sha256_tabela": "c81d2aa3a38b2cf58372c569ba888388f227ec9ad9a8e19603c24bafe25cd43a"
+}

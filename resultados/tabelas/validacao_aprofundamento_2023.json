@@ -1,0 +1,131 @@
+{
+  "status": "aprovado",
+  "python": "C:\\trabCDados\\projeto-enade\\.venv\\Scripts\\python.exe",
+  "leitura": {
+    "microdados2023_arq3.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    },
+    "microdados2023_arq14.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    },
+    "microdados2023_arq16.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    },
+    "microdados2023_arq10.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    },
+    "microdados2023_arq11.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    },
+    "microdados2023_arq23.txt": {
+      "lidos": 406294,
+      "selecionados": 1418
+    }
+  },
+  "n_notas": 1203,
+  "n_pares_mesmo_arq3": 1203,
+  "auditoria_itens": {
+    "FG": {
+      "itens_totais": 9,
+      "gabarito_final": "DDBAECABE",
+      "posicoes_excluidas": [],
+      "registros_conferidos": 1203
+    },
+    "CE": {
+      "itens_totais": 29,
+      "gabarito_final": "BCADECE999BAEAD9ECABECBD9ECCA",
+      "posicoes_excluidas": [
+        8,
+        9,
+        10,
+        16,
+        25
+      ],
+      "registros_conferidos": 1203
+    }
+  },
+  "erro_maximo_ponderacao": {
+    "geral": 0.05000000000001137,
+    "fg": 0.05000000000000426,
+    "ce": 0.05000000000000071
+  },
+  "zip_sha256": {
+    "dados\\brutos\\enade_2023\\microdados_enade_2023.zip": "7565eb919b7403e2e95c61bd26ff9d3a90311a6897087ec5c237d53693745853",
+    "dados\\brutos\\censo_2023\\microdados_censo_da_educacao_superior_2023.zip": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5"
+  },
+  "zip_intactos": true,
+  "bonus_2021": {
+    "arquivos_locais": {
+      "enade_2021": [],
+      "censo_2021": []
+    },
+    "status": "pendente_sem_microdados"
+  },
+  "graficos": [
+    "comparacao_componentes_2023.png",
+    "comparacao_componentes_2023.pdf",
+    "relacao_fg_ce_2023.png",
+    "relacao_fg_ce_2023.pdf",
+    "dispersao_fg_ce_2023.png",
+    "dispersao_fg_ce_2023.pdf",
+    "partes_prova_2023.png",
+    "partes_prova_2023.pdf",
+    "fg_discursiva_resposta_2023.png",
+    "fg_discursiva_resposta_2023.pdf",
+    "itens_fg_2023.png",
+    "itens_fg_2023.pdf",
+    "itens_ce_2023.png",
+    "itens_ce_2023.pdf",
+    "perfil_socioeconomico_2023.png",
+    "perfil_socioeconomico_2023.pdf"
+  ],
+  "posicoes_vetores": "FG posições 1–9 = questões 1–9; CE posições 1–29 = questões 10–38. Sequência validada com gabarito oficial.",
+  "divergencia_dicionario": "Pesos FG 60/40 e CE 85/15 no XLSX incompatíveis com as notas. Usados FG 65/35 e CE 90/10, conforme NT 12/2024.",
+  "sha256_entradas": {
+    "dados\\tratados\\2023\\cadastro_comparaveis.csv": "a1f383fb56e8a340db023d6cd5961a24b8ecba4357e0f368cd47e8eb56480edf",
+    "dados\\tratados\\2023\\enade_arq1_filtrado.csv": "e9458f20d4f62ecc788bfadc69b25103cb0139a00103e0b3137944ab84f6177f",
+    "dados\\tratados\\2023\\enade_arq3_desempenho.csv": "eb4587d3af8d97fb285d8a3a18c47c8f96196f06b13682bde4136bf3b1a873e8"
+  },
+  "sha256_saidas": {
+    "resultados\\tabelas\\componentes_aprofundados_2023.csv": "aea92418bbbd6c8ee95a3b9cb352bca99e26bfa81f488e9712fd6b2d971a9daf",
+    "resultados\\tabelas\\diferencas_componentes_2023.csv": "d7ff99ee70ad2c241014f65ba68b517f4bc9bfdf4320effecd582617fbef45a4",
+    "resultados\\tabelas\\correlacoes_fg_ce_2023.csv": "049f9c2336dc84f2e43995397372c03358bed29ab7bec4b145edda387bbfeb63",
+    "resultados\\tabelas\\acertos_itens_2023.csv": "b17168a5757b6674238fba8fd8786b0c18ff49611deaf74f3a695135df02d0f9",
+    "resultados\\tabelas\\socioeconomico_grupos_2023.csv": "f09e55e2d30656b9200d545ce4a2e5a59b7833d9e924b48c0619aedab7f1ce64",
+    "resultados\\tabelas\\socioeconomico_cursos_2023.csv": "19dfbed0ec84c338ab7d403814e479e7733e7d365066e1a95e0d0f9fda4b8c24",
+    "resultados\\tabelas\\indicadores_socioeconomicos_2023.csv": "1e7d5e01d7620f33d8791cce96729befe3a243db263038eb1bdfe485fd7e674a",
+    "resultados\\tabelas\\correlacoes_ecologicas_2023.csv": "74d869a57c724d933f72cc76b7d62cf7ebdf70e7af45fcd80456ee3b604e70f0",
+    "resultados\\tabelas\\dados_ecologicos_cursos_2023.csv": "2ae495ff383d485ccafbc99361bb70cfc9f2c32ab8771b4794060cb72c829310",
+    "dados\\tratados\\2023\\aprofundamento\\dicionario_variaveis.json": "b19a21ac44083fba41191b4d75244414b1d79b256295bbc088f006c2098f3e74",
+    "dados\\tratados\\2023\\aprofundamento\\enade_arq3_itens.csv": "f4f1970795a7adc0fa0956456b65fb6115b1fd1fa2dd5f21705ecb831d6bdebd",
+    "dados\\tratados\\2023\\aprofundamento\\QE_I04.csv": "2143576c5e3b5040ad22a2cca3f735a1f4fc6ed70295c3d293586612a9ccd0a8",
+    "dados\\tratados\\2023\\aprofundamento\\QE_I05.csv": "aef9e6fb6e3c3a963584dd7ecbc9c2a26d22e8df9df695b605943c5ecc80320b",
+    "dados\\tratados\\2023\\aprofundamento\\QE_I08.csv": "8deec2a7c8e325797c9c606fb5a1a4e0b315fff7030bbcfc5ed301940dcedf2a",
+    "dados\\tratados\\2023\\aprofundamento\\QE_I10.csv": "0eeb90047350d5df6ba98890593b8376abadaf71ea35e2888b6b9e20f7c836e3",
+    "dados\\tratados\\2023\\aprofundamento\\QE_I17.csv": "2a8f186f9bdcf50df33765fa40775266df672908902e4b9beda2f299c3be2b1b",
+    "resultados\\graficos\\comparacao_componentes_2023.png": "9ae74e229fc67ab59e2c6ae890515ef09c6959ebc8bb2ecaf344a0609ae08e70",
+    "resultados\\graficos\\comparacao_componentes_2023.pdf": "48fec7778d653831c1d5d66e547ccc330414a64019bb966e8d9f48a7aa90f7b6",
+    "resultados\\graficos\\relacao_fg_ce_2023.png": "8c337c74f14fe4cddf193bcb41ff2066004d75fff42f004acc87cdb9bef24e10",
+    "resultados\\graficos\\relacao_fg_ce_2023.pdf": "eca213ddc2e10b63cdebbf9c8b3398d938307aeb9ca7e6ff347a5c1b4a54266a",
+    "resultados\\graficos\\dispersao_fg_ce_2023.png": "467db6711a475ab0f5662e0a1a122af35be722c520bcc2d62f0c4f7cf2c79f6b",
+    "resultados\\graficos\\dispersao_fg_ce_2023.pdf": "2a34dbed2caf93601fab178fe307de3c06a7411af4f4f3bbd5dd19a08e45277b",
+    "resultados\\graficos\\partes_prova_2023.png": "7ec942631e4e62728bbed7b5feab3631a1f6714d53b8938cfac1e93976ec15e5",
+    "resultados\\graficos\\partes_prova_2023.pdf": "d80717b00316bee05235cdf03e13e0e71bfe4cc4b80a9a8ed4c8dae21498dbbc",
+    "resultados\\graficos\\itens_fg_2023.png": "58dba2a43d17543b48c26cca302be3b007875abfa6bf881026233da04b29bf79",
+    "resultados\\graficos\\itens_fg_2023.pdf": "e489239219503a4d6924008b10053f394ed0faeeb800abe0ee6a0a62b0dd8deb",
+    "resultados\\graficos\\itens_ce_2023.png": "57d225d70c8f579e924887b3eaa85fec528340338fdcd07a091f1b6857c9e51a",
+    "resultados\\graficos\\itens_ce_2023.pdf": "0409cdcaa212da0d1cdf087c00e7c8a0e0b68aa0278196c77c2b8988216867c7",
+    "resultados\\graficos\\perfil_socioeconomico_2023.png": "7a56ce06e957ee36d6b1a369c6125c819d49dc8d59ea74f0b3a2560c0106a69f",
+    "resultados\\graficos\\perfil_socioeconomico_2023.pdf": "6a57b57df1665ccbdcc600be21820cf7cc3d8c4a347aea2625566216f080c554",
+    "resultados\\graficos\\fg_discursiva_resposta_2023.png": "20e910c0ed825413d3fb6ddc8cff52abc0b23df13bb56fdd27802f7117a71f50",
+    "resultados\\graficos\\fg_discursiva_resposta_2023.pdf": "08735278c92fc4f2739ecf68ae8b3ecb64513d2480ae86f5db00f798fecb9659",
+    "resultados\\tabelas\\fg_discursiva_respostas_2023.csv": "c81d2aa3a38b2cf58372c569ba888388f227ec9ad9a8e19603c24bafe25cd43a"
+  },
+  "revisao_task13": "Apresentação regenerada a partir das tabelas aprovadas; diagnóstico discursivo conferido no arq3.",
+  "revisao_task14": "Somente Figura 5: 24 diferenças CE ordenadas e percentuais absolutos."
+}

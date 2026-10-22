@@ -1,0 +1,31 @@
+{
+  "status": "aprovado",
+  "figura_substituida": 5,
+  "questoes_validas": 24,
+  "conferencias_numericas": 72,
+  "questoes_excluidas_sem_percentual": [
+    17,
+    18,
+    19,
+    25,
+    34
+  ],
+  "denominadores_por_item": {
+    "UNIFOR": 25,
+    "demais_privadas": 1178
+  },
+  "arquivos_protegidos_intactos": 54,
+  "outros_graficos_e_microdados_intactos": true,
+  "restante_do_relatorio_identico": true,
+  "modelo_e_relatorio_identicos": true,
+  "imagem_anterior_preservada_no_notebook": true,
+  "notebook_celulas_executadas": 9,
+  "testes_software_aprovados": 9,
+  "novos_testes_estatisticos": false,
+  "zip_versao": "TASK14-3f7e5e39a301",
+  "zip_sha256": "23e65a785271247092311f770dabed1212f209585882e92ea3c7fbffe95a8f68",
+  "membros_zip_conferidos": 10,
+  "compilado": false,
+  "paginas_pdf": null,
+  "limite_10_paginas_verificado": false
+}

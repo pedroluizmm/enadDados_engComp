@@ -1,0 +1,28 @@
+{
+  "status": "validacao_estatica_aprovada",
+  "compilador": null,
+  "revisao": "TASK14",
+  "validacao_numerica_reutilizada_sem_recalculo": true,
+  "compilado": false,
+  "paginas_pdf": null,
+  "limite_10_paginas_verificado": false,
+  "quebras_forcadas": 0,
+  "gerador_reproduz_fonte_editorial": true,
+  "figuras": 6,
+  "arquivos_referenciados": [
+    "tabelas/indicadores.tex",
+    "../resultados/graficos/comparacao_componentes_2023.pdf",
+    "../resultados/graficos/fg_discursiva_resposta_2023.pdf",
+    "../resultados/graficos/relacao_fg_ce_2023.pdf",
+    "../resultados/graficos/itens_fg_2023.pdf",
+    "../resultados/graficos/itens_ce_2023.pdf",
+    "../resultados/graficos/perfil_socioeconomico_2023.pdf"
+  ],
+  "tabelas_reconciliadas_com_csv": true,
+  "chaves_ambientes_citacoes_referencias": true,
+  "main_tex_sha256": "1071774f5d28b5732eb876ff8185d91ac0669e69b1faedc4a247c78cd365c2d4",
+  "limitacoes": [
+    "Autoria estudantil e identificação docente não confirmadas",
+    "Sem compilação: paginação, limite obrigatório de dez páginas e aparência do PDF não verificados"
+  ]
+}

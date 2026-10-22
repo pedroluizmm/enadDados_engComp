@@ -1,0 +1,294 @@
+{
+  "QE_I08": {
+    "tipo": "C",
+    "descricao": "Qual a renda total de sua família, incluindo seus rendimentos?",
+    "linhas": [
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "A = Até 1,5 salário mínimo (até R$ 1.980,00).",
+      "B = De 1,5 a 3 salários mínimos (R$ 1.980,01 a R$ 3.960,00).",
+      "C = De 3 a 4,5 salários mínimos (R$ 3.960,01 a R$ 5.940,00).",
+      "D = De 4,5 a 6 salários mínimos (R$ 5.940,01 a R$ 7.920,00).",
+      "E = De 6 a 10 salários mínimos (R$ 7.920,01 a R$ 13.200,00).",
+      "F = De 10 a 30 salários mínimos (R$ 13.200,01 a R$ 39.600,00).",
+      "G = Acima de 30 salários mínimos (mais de R$ 39.600,00)."
+    ]
+  },
+  "QE_I10": {
+    "tipo": "C",
+    "descricao": "Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?",
+    "linhas": [
+      348,
+      349,
+      350,
+      351,
+      352
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "A = Não estou trabalhando.",
+      "B = Trabalho eventualmente.",
+      "C = Trabalho até 20 horas semanais.",
+      "D = Trabalho de 21 a 39 horas semanais.",
+      "E = Trabalho 40 horas semanais ou mais."
+    ]
+  },
+  "QE_I04": {
+    "tipo": "C",
+    "descricao": "Até que etapa de escolarização seu pai concluiu?",
+    "linhas": [
+      309,
+      310,
+      311,
+      312,
+      313,
+      314
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "A = Nenhuma.",
+      "B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).",
+      "C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).",
+      "D = Ensino Médio.",
+      "E = Ensino Superior - Graduação.",
+      "F = Pós-graduação."
+    ]
+  },
+  "QE_I05": {
+    "tipo": "C",
+    "descricao": "Até que etapa de escolarização sua mãe concluiu?",
+    "linhas": [
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "A = Nenhuma.",
+      "B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).",
+      "C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).",
+      "D = Ensino médio.",
+      "E = Ensino Superior - Graduação.",
+      "F = Pós-graduação."
+    ]
+  },
+  "QE_I17": {
+    "tipo": "C",
+    "descricao": "Em que tipo de escola você cursou o ensino médio?",
+    "linhas": [
+      417,
+      418,
+      419,
+      420,
+      421,
+      422
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "A = Todo em escola pública.",
+      "B = Todo em escola privada (particular).",
+      "C = Todo no exterior.",
+      "D = A maior parte em escola pública.",
+      "E = A maior parte em escola privada (particular).",
+      "F = Parte no Brasil e parte no exterior."
+    ]
+  },
+  "NU_ITEM_OFG": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva da Formação Geral",
+    "linhas": [
+      109
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "9 itens"
+    ]
+  },
+  "NU_ITEM_OFG_Z": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva da Formação Geral que foram excluídos devido a anulação",
+    "linhas": [
+      110
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "Min=0\nMax=0"
+    ]
+  },
+  "NU_ITEM_OFG_X": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva da Formação Geral que foram excluídos devido ao coeficiente ponto-bisserial menor que 0,20",
+    "linhas": [
+      111
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "Min=0\nMax=0"
+    ]
+  },
+  "NU_ITEM_OFG_N": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva da Formação Geral que não se aplicam ao grupo de curso",
+    "linhas": [
+      112
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "Min=0\nMax=0"
+    ]
+  },
+  "NU_ITEM_OCE": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva de Componente Específico",
+    "linhas": [
+      113
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "29 itens"
+    ]
+  },
+  "NU_ITEM_OCE_Z": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva de Componente Específico que foram excluídos devido a anulação",
+    "linhas": [
+      114
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "Min=0\nMax=1"
+    ]
+  },
+  "NU_ITEM_OCE_X": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva de Componente Específico que foram excluídos devido ao coeficiente ponto-bisserial menor que 0,20",
+    "linhas": [
+      115
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "Min=1\nMax=9"
+    ]
+  },
+  "NU_ITEM_OCE_N": {
+    "tipo": "N",
+    "descricao": "Número de itens da parte objetiva de Componente Específico que não se aplicam ao grupo de curso",
+    "linhas": [
+      116
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "Min=0\nMax=0"
+    ]
+  },
+  "DS_VT_GAB_OFG_FIN": {
+    "tipo": "C",
+    "descricao": "Vetor que representa o gabarito final de Formação Geral",
+    "linhas": [
+      118,
+      119,
+      120
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "1 letra por item (intervalo de A a E)",
+      "Z = questão excluída devido à anulação",
+      "X = questão excluída devido ao coeficiente ponto-bisserial < 0,20"
+    ]
+  },
+  "DS_VT_ESC_OFG": {
+    "tipo": "C",
+    "descricao": "Vetor que representa a escolha de resposta da parte objetiva da Formação Geral",
+    "linhas": [
+      124
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "1 letra por item (intervalo de A a E), \".\"=em branco, \"*\"=múltiplo"
+    ]
+  },
+  "DS_VT_ACE_OFG": {
+    "tipo": "C",
+    "descricao": "Vetor que representa os acertos da parte objetiva na Formação Geral",
+    "linhas": [
+      125,
+      126,
+      127,
+      128
+    ],
+    "dominio": {
+      "0": "Errado",
+      "1": "Certo",
+      "8": "Anulada pela comissão",
+      "9": "Anulada pelo índice de discriminação (correlação pontobisserial < 0,20)"
+    },
+    "texto_dominio": [
+      "0 = Errado",
+      "1 = Certo",
+      "8 = Anulada pela comissão",
+      "9 = Anulada pelo índice de discriminação (correlação pontobisserial < 0,20)"
+    ]
+  },
+  "DS_VT_GAB_OCE_FIN": {
+    "tipo": "C",
+    "descricao": "Vetor que representa o gabarito final de Componente Específico",
+    "linhas": [
+      121,
+      122,
+      123
+    ],
+    "dominio": {
+      "8": "questão excluída devido à anulação",
+      "9": "questão excluída devido ao coeficiente ponto-bisserial < 0,20"
+    },
+    "texto_dominio": [
+      "1 letra por item (intervalo de A a E)",
+      "8 = questão excluída devido à anulação",
+      "9 = questão excluída devido ao coeficiente ponto-bisserial < 0,20"
+    ]
+  },
+  "DS_VT_ESC_OCE": {
+    "tipo": "C",
+    "descricao": "Vetor que representa a escolha de resposta da parte objetiva do Componente Específico",
+    "linhas": [
+      129
+    ],
+    "dominio": {},
+    "texto_dominio": [
+      "1 letra por item, \".\"=em branco, \"*\"=múltiplo"
+    ]
+  },
+  "DS_VT_ACE_OCE": {
+    "tipo": "C",
+    "descricao": "Vetor que representa os acertos da parte objetiva do Componente Específico",
+    "linhas": [
+      130,
+      131,
+      132,
+      133
+    ],
+    "dominio": {
+      "0": "Errado",
+      "1": "Certo",
+      "8": "Anulada pela comissão",
+      "9": "Anulada pelo índice de discriminação"
+    },
+    "texto_dominio": [
+      "0 = Errado",
+      "1 = Certo",
+      "8 = Anulada pela comissão",
+      "9 = Anulada pelo índice de discriminação"
+    ]
+  }
+}
